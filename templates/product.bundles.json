@@ -1,0 +1,544 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "inventory_rczjMP": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 3
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "sku_B3nTRm": {
+          "type": "sku",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "dropdown",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "offer_WXyGDF": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Free Wrap With Purchase",
+            "content": "<p>Add a Ready-to-Go or Custom wrap to your cart with the purchase of this hardware and get it for free. Discount will be calculated at checkout.</p>",
+            "background": "#c5e9de",
+            "text_color": "#1a1b1d"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "associated_products_DqHyqP": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 5,
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "volume_pricing_erWEYK": {
+          "type": "volume_pricing",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "inventory_rczjMP",
+        "rating",
+        "payment_terms",
+        "sku_B3nTRm",
+        "variant_picker",
+        "offer_WXyGDF",
+        "quantity_selector",
+        "buy_buttons",
+        "associated_products_DqHyqP",
+        "volume_pricing_erWEYK"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "specification_table_YPDnxJ": {
+      "type": "specification-table",
+      "blocks": {
+        "row_96Q3qz": {
+          "type": "row",
+          "settings": {
+            "heading": "Aisle Configuration",
+            "value": "<p>Value 1</p>"
+          }
+        },
+        "row_dJapxJ": {
+          "type": "row",
+          "settings": {
+            "heading": "Durability",
+            "value": "<p>Value</p>"
+          }
+        },
+        "row_DXfUTx": {
+          "type": "row",
+          "settings": {
+            "heading": "Display",
+            "value": "<p>Value 2</p>"
+          }
+        },
+        "row_MaH3NA": {
+          "type": "row",
+          "settings": {
+            "heading": "Connectivity",
+            "value": "<p>Value 3</p>"
+          }
+        },
+        "row_LeLD3H": {
+          "type": "row",
+          "settings": {
+            "heading": "Payment System",
+            "value": "<p>Value</p>"
+          }
+        },
+        "row_pxXCDk": {
+          "type": "row",
+          "settings": {
+            "heading": "Warranty",
+            "value": "<p>30 Day Satisfaction Guarantee. 1-Year Warranty.</p>"
+          }
+        },
+        "row_rLUpzN": {
+          "type": "row",
+          "settings": {
+            "heading": "",
+            "value": ""
+          }
+        },
+        "row_WP3arC": {
+          "type": "row",
+          "settings": {
+            "heading": "",
+            "value": ""
+          }
+        },
+        "row_ewdYjt": {
+          "type": "row",
+          "settings": {
+            "heading": "",
+            "value": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_96Q3qz",
+        "row_dJapxJ",
+        "row_DXfUTx",
+        "row_MaH3NA",
+        "row_LeLD3H",
+        "row_pxXCDk",
+        "row_rLUpzN",
+        "row_WP3arC",
+        "row_ewdYjt"
+      ],
+      "name": "Specification table",
+      "settings": {
+        "full_width": true,
+        "subheading": "About the {{ product.title }}",
+        "title": "",
+        "content": "{{ product.description }}",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "#1a1b1d",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "#fdfeff",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "text_with_icons_D8Wch3": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_De4ra3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Bodegas",
+            "content": "<p>Lorem Ipsum dolar sit amet</p>"
+          }
+        },
+        "item_dcmehc": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Restaurants",
+            "content": "<p>Lorem Ipsum dolar sit amet</p>"
+          }
+        },
+        "item_PMfM47": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Bars",
+            "content": "<p>Lorem Ipsum dolar sit amet</p>"
+          }
+        },
+        "item_rf97kq": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Hotels",
+            "content": "<p>Lorem Ipsum dolar sit amet</p>"
+          }
+        },
+        "item_xqDpPA": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Convenience Stores",
+            "content": "<p>Lorem Ipsum dolar sit amet</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_De4ra3",
+        "item_dcmehc",
+        "item_PMfM47",
+        "item_rf97kq",
+        "item_xqDpPA"
+      ],
+      "disabled": true,
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "Works well in these locations",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_WFkEfQ": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_aaVtNc": {
+          "type": "video",
+          "settings": {
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#1a1b1d",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_aaVtNc"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "impact_text_fnAreK": {
+      "type": "impact-text",
+      "blocks": {
+        "item_rqCXmN": {
+          "type": "item",
+          "settings": {
+            "title": "$450",
+            "subheading": "In Savings",
+            "content": "<p>Save $450 on bundled items compared to purchasing individually.</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_rqCXmN"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 0.7,
+        "background": "#fdfeff",
+        "background_gradient": "",
+        "heading_text_color": "#41b990",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "blog_posts_gnTTiP": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_tw4QUx": {
+          "type": "article",
+          "settings": {
+            "article": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_tw4QUx"
+      ],
+      "name": "Featured blog post",
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "faq_Whqq6F": {
+      "type": "faq",
+      "blocks": {
+        "item_kNfCxb": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_HB9hDC": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_ADiwVP": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        },
+        "item_7KKzzF": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_kNfCxb",
+        "item_HB9hDC",
+        "item_ADiwVP",
+        "item_7KKzzF"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#fdfeff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "related_products_tV7zV3": {
+      "type": "related-products",
+      "name": "Related products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+          "beach-essentials-kit",
+          "band-aid-travel-kit",
+          "polarized-sunglasses",
+          "portable-charger",
+          "neutrogena-hydroboost-50-spf"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "subheading": "",
+        "title": "Stock up on extras",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "rgba(0,0,0,0)",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "specification_table_YPDnxJ",
+    "text_with_icons_D8Wch3",
+    "media_with_text_WFkEfQ",
+    "impact_text_fnAreK",
+    "blog_posts_gnTTiP",
+    "faq_Whqq6F",
+    "related_products_tV7zV3"
+  ]
+}
