@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "section-1": {
@@ -12,54 +21,24 @@
             "subheading": "Tell your story",
             "title": "Slide 1",
             "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "block-2": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 2",
-            "heading_tag": "h1",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "block-3": {
-          "type": "image",
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 3",
-            "heading_tag": "h1",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "block-1",
-        "block-2",
-        "block-3"
+        "block-1"
       ],
       "name": "Slideshow",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": true,
         "show_initial_transition": false,
         "image_size": "auto",
@@ -79,6 +58,8 @@
           "settings": {
             "stretch_image": true,
             "link_text": "Title 1",
+            "link_url": "",
+            "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -89,6 +70,8 @@
           "settings": {
             "stretch_image": true,
             "link_text": "Title 2",
+            "link_url": "",
+            "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -99,6 +82,8 @@
           "settings": {
             "stretch_image": true,
             "link_text": "Title 3",
+            "link_url": "",
+            "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -109,6 +94,8 @@
           "settings": {
             "stretch_image": true,
             "link_text": "Title 4",
+            "link_url": "",
+            "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -119,6 +106,8 @@
           "settings": {
             "stretch_image": true,
             "link_text": "Title 5",
+            "link_url": "",
+            "background": "",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -132,15 +121,26 @@
         "block-4",
         "block-5"
       ],
+      "disabled": true,
       "name": "Image link blocks",
       "settings": {
         "full_width": false,
         "block_size": "large",
-        "text_color": "#1a1a1a"
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#1a1a1a",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "section-3": {
       "type": "scrolling-text",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "text": "Scrolling text",
@@ -148,6 +148,9 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
         "text_gradient": "linear-gradient(90deg, rgba(77, 82, 60, 1), rgba(133, 141, 103, 1) 100%)"
       }
     },
@@ -157,6 +160,10 @@
         "block-1": {
           "type": "collection",
           "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
             "heading_tag": "h3",
             "text_position": "place-self-end-start text-start",
             "text_color": "#ffffff",
@@ -167,6 +174,10 @@
         "block-2": {
           "type": "collection",
           "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
             "heading_tag": "h3",
             "text_position": "place-self-end-start text-start",
             "text_color": "#ffffff",
@@ -177,6 +188,10 @@
         "block-3": {
           "type": "collection",
           "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
             "heading_tag": "h3",
             "text_position": "place-self-end-start text-start",
             "text_color": "#ffffff",
@@ -190,26 +205,48 @@
         "block-2",
         "block-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_collections": false,
         "collections_per_row_mobile": "1",
         "collections_per_row": 3,
-        "show_progress_bar": false
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Collection list",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "section-5": {
       "type": "featured-collection",
       "settings": {
+        "collection": "",
+        "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
         "products_count": 6,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
+        "subheading": "",
         "title": "Best sellers",
+        "content": "",
         "link_url": "shopify://collections/all",
-        "link_text": "View all"
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     },
     "section-6": {
@@ -238,7 +275,13 @@
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 1,
-        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)"
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "section-7": {
@@ -291,12 +334,16 @@
             "show_video_controls": false,
             "title": "Video",
             "heading_tag": "h3",
+            "link_url": "",
+            "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
             "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "background": "#000000",
+            "background_gradient": "",
             "text_color": "#ffffff",
+            "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -308,12 +355,16 @@
           "settings": {
             "title": "Image 1",
             "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 1,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "background": "#000000",
+            "background_gradient": "",
             "text_color": "#ffffff",
+            "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -325,12 +376,16 @@
           "settings": {
             "title": "Image 2",
             "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 1,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "background": "#000000",
+            "background_gradient": "",
             "text_color": "#ffffff",
+            "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -342,12 +397,16 @@
           "settings": {
             "title": "Image 3",
             "heading_tag": "h3",
+            "link_url": "",
+            "link_text": "",
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_column_span": 2,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "background": "#000000",
+            "background_gradient": "",
             "text_color": "#ffffff",
+            "text_gradient": "",
             "button_background": "#000000",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
@@ -365,7 +424,9 @@
         "full_width": true,
         "reduce_width": false,
         "desktop_row_height": 290,
-        "mobile_row_height": 150
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "section-9": {
@@ -382,6 +443,8 @@
         "after_text": "After",
         "drag_initial_position": 39,
         "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
         "before_text_color": "#ffffff",
         "after_text_color": "#ffffff",
         "drag_cursor_background": "#ffffff",
@@ -395,7 +458,8 @@
           "type": "quote",
           "settings": {
             "logo_width": 120,
-            "content": "Absolutely love it! It exceeded all my expectations. The quality is top-notch, and I\u2019ve already recommended it to several friends.",
+            "author": "",
+            "content": "Absolutely love it! It exceeded all my expectations. The quality is top-notch, and I’ve already recommended it to several friends.",
             "show_rating": false,
             "rating": 4
           }
@@ -404,7 +468,8 @@
           "type": "quote",
           "settings": {
             "logo_width": 100,
-            "content": "A game-changer \u2014 I noticed the difference right away. It\u2019s rare to find something that delivers exactly what it promises, but this does.",
+            "author": "",
+            "content": "A game-changer — I noticed the difference right away. It’s rare to find something that delivers exactly what it promises, but this does.",
             "show_rating": false,
             "rating": 4
           }
@@ -413,6 +478,7 @@
           "type": "quote",
           "settings": {
             "logo_width": 100,
+            "author": "",
             "content": "Fast delivery, great quality, and amazing support! I had a few questions and the team was incredibly helpful and friendly throughout.",
             "show_rating": false,
             "rating": 4
@@ -426,7 +492,14 @@
       ],
       "settings": {
         "full_width": true,
-        "content_size": "medium"
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     },
     "section-11": {
@@ -479,7 +552,9 @@
         "title": "Discover the details",
         "content": "<p>Highlight key features of your product or service by placing hotspots over an image. Use this section to guide your customers and draw attention to what matters most.</p>",
         "button_text": "Learn more",
+        "button_url": "",
         "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
         "image_background_gradient": "linear-gradient(90deg, rgba(77, 82, 60, 1), rgba(133, 141, 103, 1) 100%)",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
@@ -503,6 +578,8 @@
             "title": "6",
             "subheading": "Hours of battery",
             "content": "<p>Share some key points about your products.</p>",
+            "button_text": "",
+            "button_url": "",
             "animate_impact_text": true,
             "animate_impact_text_duration": 1.6
           }
@@ -513,6 +590,8 @@
             "title": "12",
             "subheading": "Meters deep",
             "content": "<p>Share some key points about your products.</p>",
+            "button_text": "",
+            "button_url": "",
             "animate_impact_text": true,
             "animate_impact_text_duration": 1.6
           }
@@ -529,9 +608,13 @@
         "impact_text_style": "fill",
         "text_divider": "line",
         "impact_text_size_ratio": 1.5,
+        "background": "",
         "background_gradient": "linear-gradient(90deg, rgba(77, 82, 60, 1), rgba(133, 141, 103, 1) 100%)",
         "heading_text_color": "#ffffff",
-        "text_color": "#ffffff"
+        "heading_gradient": "",
+        "text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "section-13": {
@@ -543,7 +626,9 @@
             "image_rotation_degrees": 2,
             "subheading": "About us",
             "title": "Designed in New York",
-            "content": "<p>Share some content about the founders, your team and your values. Pair this text with one or multiple images to create impactful visual effect.</p>"
+            "content": "<p>Share some content about the founders, your team and your values. Pair this text with one or multiple images to create impactful visual effect.</p>",
+            "button_url": "",
+            "button_text": ""
           }
         },
         "block-2": {
@@ -552,7 +637,9 @@
             "image_rotation_degrees": -2,
             "subheading": "Our products",
             "title": "Superior design",
-            "content": "<p>Share some content abour your products and what make them unique. Pair this text with one or multiple images to create impactful visual effect.</p>"
+            "content": "<p>Share some content abour your products and what make them unique. Pair this text with one or multiple images to create impactful visual effect.</p>",
+            "button_url": "",
+            "button_text": ""
           }
         }
       },
@@ -563,7 +650,12 @@
       "settings": {
         "full_width": true,
         "images_layout": "scattered",
-        "collage_images_alignment": "middle"
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "section-14": {
@@ -613,14 +705,20 @@
             "hide_sold_out_variants": false,
             "stack_blocks": true,
             "selector_style": "block",
-            "swatch_selector_style": "swatch"
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
           }
         },
         "block-9": {
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": true,
-            "show_gift_card_recipient": true
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
           }
         },
         "block-10": {
@@ -649,6 +747,7 @@
       ],
       "settings": {
         "full_width": false,
+        "product": "",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
@@ -658,7 +757,10 @@
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
         "background": "#ffffff",
-        "input_background": "rgba(0,0,0,0)"
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
       }
     },
     "section-15": {
@@ -670,25 +772,79 @@
             "heading_1": "Driver",
             "heading_2": "Weight",
             "heading_3": "Dimensions",
-            "heading_4": "Battery"
+            "heading_4": "Battery",
+            "heading_5": "",
+            "heading_6": "",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
           }
         },
         "block-2": {
           "type": "values",
           "settings": {
+            "product": "",
             "value_1": "<p>40mm Beryllium</p>",
             "value_2": "<p>245g</p>",
             "value_3": "<p>165mm x 190mm x 66mm</p>",
-            "value_4": "<p>24 hours</p>"
+            "value_4": "<p>24 hours</p>",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
           }
         },
         "block-3": {
           "type": "values",
           "settings": {
+            "product": "",
             "value_1": "<p>40mm Beryllium</p>",
             "value_2": "<p>205g (On-Ear), 239g (Over-Ear)</p>",
             "value_3": "<p>190mm x 155mm x 34mm (On-Ear), 200mm x 165mm x 40mm (Over-Ear)</p>",
-            "value_4": "<p>16 hours</p>"
+            "value_4": "<p>16 hours</p>",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
           }
         }
       },
@@ -703,18 +859,32 @@
         "title": "Highlight key differences at a glance",
         "content": "<p>This section is perfect for showcasing product comparisons side-by-side. Use it to display key features, specifications, and pricing so customers can quickly decide which item fits their needs.</p>",
         "button_text": "Learn more",
+        "button_url": "",
         "text_position": "start",
         "max_rows": 5,
         "view_all_text": "View all",
         "view_less_text": "View less",
         "view_product": "View",
-        "show_product_swatch": true
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
       }
     },
     "section-16": {
       "type": "revealed-image-on-scroll",
       "settings": {
+        "subheading": "",
         "title": "Outstanding products with exceptional brands",
+        "background": "",
         "text_color_inside": "#ffffff",
         "text_color_outside": "#000000"
       }
@@ -727,7 +897,8 @@
           "settings": {
             "navigation_label": "2014",
             "subheading": "The beginning",
-            "title": "Our journey starts with a simple idea"
+            "title": "Our journey starts with a simple idea",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "block-2": {
@@ -735,7 +906,8 @@
           "settings": {
             "navigation_label": "2017",
             "subheading": "First Launch",
-            "title": "Introducing our very first product to the world"
+            "title": "Introducing our very first product to the world",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "block-3": {
@@ -743,7 +915,8 @@
           "settings": {
             "navigation_label": "2018",
             "subheading": "Early growth",
-            "title": "Building momentum and expanding the team"
+            "title": "Building momentum and expanding the team",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "block-4": {
@@ -751,7 +924,8 @@
           "settings": {
             "navigation_label": "2019",
             "subheading": "Going global",
-            "title": "Reaching customers across continents"
+            "title": "Reaching customers across continents",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "block-5": {
@@ -759,7 +933,8 @@
           "settings": {
             "navigation_label": "2020",
             "subheading": "Milestone achieved",
-            "title": "Celebrating 100,000 happy customers"
+            "title": "Celebrating 100,000 happy customers",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         },
         "block-6": {
@@ -767,7 +942,8 @@
           "settings": {
             "navigation_label": "2021",
             "subheading": "Stronger than ever",
-            "title": "Scaling new heights and looking ahead"
+            "title": "Scaling new heights and looking ahead",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -780,7 +956,10 @@
         "block-6"
       ],
       "settings": {
-        "full_width": true
+        "full_width": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "section-18": {
@@ -797,7 +976,7 @@
           "type": "item",
           "settings": {
             "title": "Do I need to setup an account to place an order?",
-            "content": "<p>You do not need to set up an account to place an order. However creating an account allows you to store your shipping information, see order history, and view your product\u2019s warranty information. Additional features will be added to the account page in the near future.</p>"
+            "content": "<p>You do not need to set up an account to place an order. However creating an account allows you to store your shipping information, see order history, and view your product’s warranty information. Additional features will be added to the account page in the near future.</p>"
           }
         },
         "block-3": {
@@ -818,7 +997,7 @@
           "type": "item",
           "settings": {
             "title": "What is your return policy?",
-            "content": "<p>All products purchased from our website may be returned within 14 days of purchase for a full refund less shipping costs, no questions asked. International return orders may be subject to return shipping fees.\u00a0To initiate such a return please <a href=\"/pages/contact\" title=\"Contact\">contact us</a>.</p>"
+            "content": "<p>All products purchased from our website may be returned within 14 days of purchase for a full refund less shipping costs, no questions asked. International return orders may be subject to return shipping fees. To initiate such a return please <a href=\"/pages/contact\" title=\"Contact\">contact us</a>.</p>"
           }
         },
         "block-6": {
@@ -839,13 +1018,24 @@
       ],
       "settings": {
         "full_width": false,
+        "subheading": "",
         "title": "Have a question ? We are here to help.",
-        "content": "<p>Check out the most common questions our customers asked. Still have questions ?\u2028Contact our customer support.</p>",
+        "content": "<p>Check out the most common questions our customers asked. Still have questions ? Contact our customer support.</p>",
         "team_avatar_width": 160,
         "support_hours": "Our customer support is available monday to friday: 8am-8:30pm.",
         "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
         "text_position": "start",
-        "background": "#ffffff"
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
       }
     }
   },
