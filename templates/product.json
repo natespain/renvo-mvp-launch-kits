@@ -42,6 +42,10 @@
           "type": "payment_terms",
           "settings": {}
         },
+        "sku_KL9Axj": {
+          "type": "sku",
+          "settings": {}
+        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -55,6 +59,19 @@
             "swatch_selector_style": "swatch",
             "variant_image_options": "",
             "size_chart_page": ""
+          }
+        },
+        "offer_xxM8Rf": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Shipping",
+            "content": "<p>Short content about your shipping rates or discounts.</p>",
+            "background": "#c5e9de",
+            "text_color": "#1a1b1d"
           }
         },
         "quantity_selector": {
@@ -80,8 +97,10 @@
         "price",
         "rating",
         "payment_terms",
+        "sku_KL9Axj",
         "separator",
         "variant_picker",
+        "offer_xxM8Rf",
         "quantity_selector",
         "buy_buttons"
       ],
