@@ -1231,6 +1231,97 @@ if (!window.customElements.get("cart-count")) {
   window.customElements.define("cart-count", CartCount);
 }
 
+// js/common/cart/cart-discount.js
+var AbstractCartDiscount = class extends HTMLElement {
+  async getDiscountCodes() {
+    return (await fetchCart)["discount_codes"].filter((discount) => discount.applicable).map((discount) => discount.code.toLowerCase());
+  }
+  async toggleDiscount(event) {
+    let target = event.currentTarget;
+    target.setAttribute("aria-busy", "true");
+    let discountCodes = await this.getDiscountCodes();
+    if (target.hasAttribute("discount-code")) {
+      discountCodes = discountCodes.filter((discount2) => discount2 !== target.getAttribute("discount-code").toLowerCase());
+    }
+    let discount = (discountCodes.length > 0 ? discountCodes.join(",") + "," : "") + (event.target.value || "");
+    const response = await fetch(`${Shopify.routes.root}cart/update.js`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      keepalive: true,
+      body: JSON.stringify({ discount })
+    });
+    target.setAttribute("aria-busy", "false");
+    if (!response.ok) {
+      this.dispatchEvent(new CustomEvent("cart:discount:error", { bubbles: true }));
+      return;
+    }
+    const responseJson = await response.json();
+    if (responseJson.discount_codes.some((obj) => obj.applicable === false)) {
+      this.dispatchEvent(new CustomEvent("cart:discount:error", { bubbles: true }));
+      return;
+    } else {
+      this.dispatchEvent(new CustomEvent("cart:refresh", { bubbles: true }));
+    }
+    if (window.themeVariables.settings.pageType === "cart") {
+      window.location.reload();
+    }
+  }
+};
+var _abortController2, _CartDiscountBanner_instances, onCartDiscountError_fn;
+var CartDiscountBanner = class extends HTMLElement {
+  constructor() {
+    super(...arguments);
+    __privateAdd(this, _CartDiscountBanner_instances);
+    __privateAdd(this, _abortController2);
+  }
+  connectedCallback() {
+    __privateSet(this, _abortController2, new AbortController());
+    document.addEventListener("cart:discount:error", __privateMethod(this, _CartDiscountBanner_instances, onCartDiscountError_fn).bind(this), { signal: __privateGet(this, _abortController2).signal });
+  }
+  disconnectedCallback() {
+    __privateGet(this, _abortController2).abort();
+  }
+};
+_abortController2 = new WeakMap();
+_CartDiscountBanner_instances = new WeakSet();
+onCartDiscountError_fn = function() {
+  this.hidden = false;
+};
+var _hiddenDiscountInputOriginalValue, _CartDiscountField_instances, hiddenDiscountInput_get, updateHiddenInput_fn;
+var CartDiscountField = class extends AbstractCartDiscount {
+  constructor() {
+    super();
+    __privateAdd(this, _CartDiscountField_instances);
+    __privateAdd(this, _hiddenDiscountInputOriginalValue);
+    __privateSet(this, _hiddenDiscountInputOriginalValue, __privateGet(this, _CartDiscountField_instances, hiddenDiscountInput_get).value);
+    this.addEventListener("change", this.toggleDiscount.bind(this));
+    this.addEventListener("input", __privateMethod(this, _CartDiscountField_instances, updateHiddenInput_fn));
+  }
+};
+_hiddenDiscountInputOriginalValue = new WeakMap();
+_CartDiscountField_instances = new WeakSet();
+hiddenDiscountInput_get = function() {
+  return this.querySelector('[name="discount"]');
+};
+updateHiddenInput_fn = function(event) {
+  __privateGet(this, _CartDiscountField_instances, hiddenDiscountInput_get).value = [__privateGet(this, _hiddenDiscountInputOriginalValue), event.target.value].filter((val) => val && val.trim() !== "").join(",");
+};
+var CartDiscountRemoveButton = class extends AbstractCartDiscount {
+  constructor() {
+    super();
+    this.addEventListener("click", this.toggleDiscount.bind(this));
+  }
+};
+if (!window.customElements.get("cart-discount-field")) {
+  window.customElements.define("cart-discount-field", CartDiscountField);
+}
+if (!window.customElements.get("cart-discount-remove-button")) {
+  window.customElements.define("cart-discount-remove-button", CartDiscountRemoveButton);
+}
+if (!window.customElements.get("cart-discount-banner")) {
+  window.customElements.define("cart-discount-banner", CartDiscountBanner);
+}
+
 // js/common/cart/cart-drawer.js
 import { animate as animate4 } from "vendor";
 
@@ -3081,25 +3172,25 @@ if (!window.customElements.get("product-quick-add")) {
 }
 
 // js/common/product/product-rerender.js
-var _abortController2, _ProductRerender_instances, onRerender_fn;
+var _abortController3, _ProductRerender_instances, onRerender_fn;
 var ProductRerender = class extends HTMLElement {
   constructor() {
     super(...arguments);
     __privateAdd(this, _ProductRerender_instances);
-    __privateAdd(this, _abortController2);
+    __privateAdd(this, _abortController3);
   }
   connectedCallback() {
-    __privateSet(this, _abortController2, new AbortController());
+    __privateSet(this, _abortController3, new AbortController());
     if (!this.id || !this.hasAttribute("observe-form")) {
       console.warn('The <product-rerender> requires an ID to identify the element to re-render, and an "observe-form" attribute referencing to the form to monitor.');
     }
-    document.forms[this.getAttribute("observe-form")].addEventListener("product:rerender", __privateMethod(this, _ProductRerender_instances, onRerender_fn).bind(this), { signal: __privateGet(this, _abortController2).signal });
+    document.forms[this.getAttribute("observe-form")].addEventListener("product:rerender", __privateMethod(this, _ProductRerender_instances, onRerender_fn).bind(this), { signal: __privateGet(this, _abortController3).signal });
   }
   disconnectedCallback() {
-    __privateGet(this, _abortController2).abort();
+    __privateGet(this, _abortController3).abort();
   }
 };
-_abortController2 = new WeakMap();
+_abortController3 = new WeakMap();
 _ProductRerender_instances = new WeakSet();
 onRerender_fn = function(event) {
   const matchingElement = deepQuerySelector(event.detail.htmlFragment, `#${this.id}`);
@@ -5227,6 +5318,9 @@ export {
   AnnouncementBar,
   BuyButtons,
   CartCount,
+  CartDiscountBanner,
+  CartDiscountField,
+  CartDiscountRemoveButton,
   CartDrawer,
   CartNote,
   CartNotificationDrawer,

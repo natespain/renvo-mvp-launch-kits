@@ -61,47 +61,8 @@ Supported variables
 
   {%- assign iterated_filters_count = 0 -%}
 
-{%- comment -%}
-
-Build allow-list of filter labels per collection.
-
-Set via collection metafield: custom.enabled_filters (list of text).
-
-Example values (one per line in the metafield):
-use case
-machine compatibility
-recurring need
-reorder frequency
-format
-
-{%- endcomment -%}
-
-{%- if show_filters -%}
-
-{%- comment -%}
-
-RENVO customization begins here
-
-Allow-list of filter labels per collection (metafield: custom.enabled_filters, list of text)
-Example values (one per line): use case, machine compatibility, recurring need, reorder frequency, format
-Note: On search page, collection is not defined — fall back to showing all filters.
-
-{%- endcomment -%}
-
-{%- assign enabled_list = '' -%}
-  {%- if collection -%}
-    {%- assign enabled_list = collection.metafields.custom.enabled_filters.value -%}
-  {%- endif -%}
-{%- capture enabled_csv -%}{{ enabled_list | join: ',' | downcase | strip }}{%- endcapture -%}
-
-{%- for filter in results.filters -%}
-
-{%- assign label_token = filter.label | downcase | strip -%}
-
-{%- if enabled_csv == '' 
-or enabled_csv contains label_token
-or filter.param_name == 'filter.v.availability' -%}
-
+  {%- if show_filters -%}
+    {%- for filter in results.filters -%}
       {%- if filter.type == 'boolean' or filter.param_name == 'filter.v.availability' -%}
         <div class="accordion">
           <div class="accordion__toggle">
@@ -163,15 +124,6 @@ or filter.param_name == 'filter.v.availability' -%}
 
         {%- assign iterated_filters_count = iterated_filters_count | plus: 1 -%}
       {%- endif -%}
-    
-      {%- endif -%} 
-      {%- comment -%} 
-      
-      RENVO customization ends here
-      end allow-list check 
-
-      {%- endcomment -%}
-
     {%- endfor -%}
 
     {%- unless update_on_change -%}

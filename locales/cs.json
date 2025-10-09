@@ -362,6 +362,10 @@
       "one_result": "Pro vaši adresu je k dispozici jedna sazba za dopravu:",
       "multiple_results": "Pro vaši adresu je k dispozici několik sazeb za dopravu:",
       "error": "Při načítání přepravních sazeb došlo k jedné nebo více chyb:"
+    },
+    "discount": {
+      "label": "Slevový kód",
+      "error": "Zadejte platný slevový kód"
     }
   },
   "404": {

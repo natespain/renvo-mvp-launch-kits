@@ -351,6 +351,10 @@
       "one_result": "1 opzione spedizione disponibile per il tuo indirizzo:",
       "multiple_results": "Multiple opzioni spedizione disponibili per il tuo indirizzo:",
       "error": "C'è stato un errore nel calcolo delle opzioni spedizione:"
+    },
+    "discount": {
+      "label": "Codice sconto",
+      "error": "Inserisci un codice sconto valido"
     }
   },
   "404": {

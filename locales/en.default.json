@@ -352,6 +352,10 @@
       "one_result": "There is one shipping rate for your address:",
       "multiple_results": "There are several shipping rates for your address:",
       "error": "One or more error occurred while retrieving shipping rates:"
+    },
+    "discount": {
+      "label": "Discount code",
+      "error": "Enter a valid discount code"
     }
   },
   "404": {

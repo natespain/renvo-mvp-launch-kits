@@ -13,31 +13,10 @@ Supported variables
 * results: either collection or search drop to extract the active facets from
 {%- endcomment -%}
 
-{%- comment -%}
-ACTIVE FACETS (with allow-list guard)
-Uses collection metafield: custom.enabled_filters (list of text).
-If empty or undefined, all filters show.
-{%- endcomment -%}
-
 {%- assign active_values_count = 0 -%}
 
 {%- capture active_facets -%}
-
-{%- comment -%}
-RENVO customization begins here
-Build allow-list for this collection
-{%- endcomment -%}
-
-{%- assign enabled_list = '' -%}
-  {%- if collection -%}
-    {%- assign enabled_list = collection.metafields.custom.enabled_filters.value -%}
-  {%- endif -%}
-
-{%- capture enabled_csv -%}{{ enabled_list | join: ',' | downcase | strip }}{%- endcapture -%}
   {%- for filter in results.filters -%}
-
-  {%- assign label_token = filter.label | downcase | strip -%}
-
     {%- if filter.type == 'price_range' -%}
       {%- if filter.max_value.value != blank or filter.min_value.value != blank -%}
         <div class="removable-facet">

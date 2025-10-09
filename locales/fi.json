@@ -351,6 +351,10 @@
       "one_result": "Osoitteeseesi on yksi toimituskulu:",
       "multiple_results": "Osoitteeseesi on useita toimituskuluja:",
       "error": "Virhe noudettaessa toimituskuluja:"
+    },
+    "discount": {
+      "label": "Alennuskoodi",
+      "error": "Anna voimassa oleva alennuskoodi"
     }
   },
   "404": {

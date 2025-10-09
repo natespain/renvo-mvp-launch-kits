@@ -363,6 +363,10 @@
       "one_result": "Za vaš naslov je na voljo ena tarifa za pošiljanje:",
       "multiple_results": "Za vaš naslov je na voljo več tarif za pošiljanje:",
       "error": "Napaka med pridobivanjem tarif za pošiljanje:"
+    },
+    "discount": {
+      "label": "Koda za popust",
+      "error": "Vnesite veljavno kodo za popust"
     }
   },
   "404": {

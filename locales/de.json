@@ -351,6 +351,10 @@
       "one_result": "Für deine Adresse gibt es einen Versandtarif:",
       "multiple_results": "Für deine Adresse gibt es mehrere Versandtarife:",
       "error": "Beim Berechnen der Versandkosten ist ein Fehler aufgetreten:"
+    },
+    "discount": {
+      "label": "Rabattcode",
+      "error": "Bitte einen gültigen Rabattcode eingeben"
     }
   },
   "404": {

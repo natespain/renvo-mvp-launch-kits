@@ -351,6 +351,10 @@
       "one_result": "Der er én leveringspris for din adresse:",
       "multiple_results": "Der er flere leveringspriser for din adresse:",
       "error": "Der opstod en eller flere fejl under hentning af leveringspriser:"
+    },
+    "discount": {
+      "label": "Rabatkode",
+      "error": "Indtast en gyldig rabatkode"
     }
   },
   "404": {
