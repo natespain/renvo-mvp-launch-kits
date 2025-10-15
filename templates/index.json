@@ -230,22 +230,22 @@
         "collection": "",
         "products": [],
         "full_width": true,
-        "stack_products": false,
+        "stack_products": true,
         "show_progress_bar": false,
-        "products_count": 6,
+        "products_count": 4,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Best sellers",
+        "title": "Smart Vending Kits for Every Market",
         "content": "",
         "link_url": "shopify://collections/all",
-        "link_text": "View all",
-        "background": "",
+        "link_text": "See All Kits",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "product_card_background": "",
+        "product_card_background": "#efefef",
         "product_card_text_color": ""
       }
     },
@@ -255,10 +255,10 @@
         "block-1": {
           "type": "item",
           "settings": {
-            "title": "Text",
-            "subheading": "Share content",
-            "content": "<p>Use this section to share helpful information with your customers. Tell a story, explain a detail, or highlight a unique feature. This is your space to connect and add personality to your store.</p>",
-            "button_text": "Shop all",
+            "title": "Why Renvo",
+            "subheading": "",
+            "content": "",
+            "button_text": "",
             "button_url": "shopify://collections/all",
             "animate_impact_text": false,
             "animate_impact_text_duration": 2
@@ -284,44 +284,154 @@
         "button_text_color": ""
       }
     },
-    "section-7": {
-      "type": "image-with-text-overlay",
+    "multi_column_gGVTpd": {
+      "type": "multi-column",
       "blocks": {
-        "block-1": {
-          "type": "subheading",
+        "item_DmLiYY": {
+          "type": "item",
           "settings": {
-            "text": "Subheading"
+            "show_controls": false,
+            "column_size": "3",
+            "title": "All-in-One Packages",
+            "heading_tag": "h4",
+            "content": "<p>No need to source suppliers separately.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "block-2": {
-          "type": "heading",
+        "item_PyTajG": {
+          "type": "item",
           "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
+            "show_controls": false,
+            "column_size": "3",
+            "title": "White-Label Ready",
+            "heading_tag": "h4",
+            "content": "<p>Add your brand with wraps and displays.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "block-3": {
-          "type": "richtext",
+        "item_MdtAEw": {
+          "type": "item",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Operator-Focused",
+            "heading_tag": "h4",
+            "content": "<p>Built for entrepreneurs starting or scaling unattended retail.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Fa3fdU": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Trusted Tech",
+            "heading_tag": "h4",
+            "content": "<p>Market-tested smart vending hardware.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         }
       },
       "block_order": [
-        "block-1",
-        "block-2",
-        "block-3"
+        "item_DmLiYY",
+        "item_PyTajG",
+        "item_MdtAEw",
+        "item_Fa3fdU"
       ],
+      "name": "Multi-column",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "stack_on_mobile": false,
+        "gap": "large",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_link_blocks_DzFkie": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_xHaVK9": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_4bdYhq": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_Fefamg": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_4wthtA": {
+          "type": "item",
+          "settings": {
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_xHaVK9",
+        "item_4bdYhq",
+        "item_Fefamg",
+        "item_4wthtA"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "section-8": {
@@ -1046,7 +1156,8 @@
     "section-4",
     "section-5",
     "section-6",
-    "section-7",
+    "multi_column_gGVTpd",
+    "image_link_blocks_DzFkie",
     "section-8",
     "section-9",
     "section-10",
