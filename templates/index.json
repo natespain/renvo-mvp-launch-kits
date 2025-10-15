@@ -250,34 +250,6 @@
         "text_color": ""
       }
     },
-    "rich_text_egUJ8a": {
-      "type": "rich-text",
-      "blocks": {
-        "button_aWiPLb": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Get Started",
-            "url": "shopify://collections/all",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "button_aWiPLb"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "text_with_icons_yH3tpe": {
       "type": "text-with-icons",
       "blocks": {
@@ -339,6 +311,34 @@
         "text_color": ""
       }
     },
+    "rich_text_egUJ8a": {
+      "type": "rich-text",
+      "blocks": {
+        "button_aWiPLb": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Get Started",
+            "url": "shopify://collections/all",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_aWiPLb"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "section-5": {
       "type": "featured-collection",
       "settings": {
@@ -393,7 +393,7 @@
         "background": "",
         "background_gradient": "",
         "heading_text_color": "",
-        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)",
+        "heading_gradient": "linear-gradient(180deg, rgba(112, 198, 153, 1), rgba(26, 26, 26, 0) 100%)",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
@@ -769,7 +769,7 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 15
       }
     }
   },
