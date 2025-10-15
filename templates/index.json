@@ -231,7 +231,7 @@
           "type": "heading",
           "settings": {
             "text": "Launch Your Smart Vending Business in 3 Simple Steps",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -243,7 +243,7 @@
       "name": "Rich text",
       "settings": {
         "full_width": true,
-        "content_width": "small",
+        "content_width": "medium",
         "text_position": "center",
         "background": "",
         "background_gradient": "",
@@ -304,7 +304,7 @@
         "stack_on_mobile": true,
         "title": "",
         "heading_tag": "h4",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "icon_spacing": "medium",
         "background": "",
         "background_gradient": "",
@@ -406,7 +406,7 @@
           "type": "item",
           "settings": {
             "show_controls": false,
-            "column_size": "3",
+            "column_size": "4",
             "title": "All-in-One Packages",
             "heading_tag": "h4",
             "content": "<p>No need to source suppliers separately.</p>",
@@ -419,7 +419,7 @@
           "type": "item",
           "settings": {
             "show_controls": false,
-            "column_size": "3",
+            "column_size": "4",
             "title": "White-Label Ready",
             "heading_tag": "h4",
             "content": "<p>Add your brand with wraps and displays.</p>",
@@ -432,7 +432,7 @@
           "type": "item",
           "settings": {
             "show_controls": false,
-            "column_size": "3",
+            "column_size": "4",
             "title": "Operator-Focused",
             "heading_tag": "h4",
             "content": "<p>Built for entrepreneurs starting or scaling unattended retail.</p>",
@@ -445,7 +445,7 @@
           "type": "item",
           "settings": {
             "show_controls": false,
-            "column_size": "3",
+            "column_size": "4",
             "title": "Trusted Tech",
             "heading_tag": "h4",
             "content": "<p>Market-tested smart vending hardware.</p>",
@@ -465,7 +465,7 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "gap": "large",
+        "gap": "small",
         "text_alignment": "center",
         "subheading": "",
         "title": "",
@@ -533,10 +533,11 @@
         "item_Fefamg",
         "item_4wthtA"
       ],
+      "disabled": true,
       "name": "Image link blocks",
       "settings": {
         "full_width": false,
-        "block_size": "medium",
+        "block_size": "small",
         "subheading": "",
         "title": "",
         "content": "",
