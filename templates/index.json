@@ -224,6 +224,107 @@
         "heading_gradient": ""
       }
     },
+    "rich_text_Wj4pRz": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_igFyUx": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_rahjf6": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ztH6Mr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_igFyUx",
+        "heading_rahjf6",
+        "richtext_ztH6Mr"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text_with_icons_yH3tpe": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_rjg3nC": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+          }
+        },
+        "item_eXMEt3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+          }
+        },
+        "item_mVrCfD": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_rjg3nC",
+        "item_eXMEt3",
+        "item_mVrCfD"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "section-5": {
       "type": "featured-collection",
       "settings": {
@@ -434,133 +535,6 @@
         "heading_gradient": ""
       }
     },
-    "section-8": {
-      "type": "media-grid",
-      "blocks": {
-        "block-1": {
-          "type": "video",
-          "settings": {
-            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "show_video_controls": false,
-            "title": "Video",
-            "heading_tag": "h3",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "block-2": {
-          "type": "image",
-          "settings": {
-            "title": "Image 1",
-            "heading_tag": "h5",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "block-3": {
-          "type": "image",
-          "settings": {
-            "title": "Image 2",
-            "heading_tag": "h5",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "block-4": {
-          "type": "image",
-          "settings": {
-            "title": "Image 3",
-            "heading_tag": "h3",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-end-start text-start",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-end-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "block-1",
-        "block-2",
-        "block-3",
-        "block-4"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
-    "section-9": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": false,
-        "subheading": "Before/after",
-        "title": "Compare images",
-        "content": "<p>Show how your product transforms experiences with a powerful before-and-after.</p>",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "Before",
-        "after_text": "After",
-        "drag_initial_position": 39,
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
     "section-10": {
       "type": "press",
       "blocks": {
@@ -610,267 +584,6 @@
         "heading_gradient": "",
         "logo_item_background": "",
         "logo_item_border": ""
-      }
-    },
-    "section-11": {
-      "type": "hot-spots",
-      "blocks": {
-        "block-1": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 74,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 74,
-            "icon_width": 32,
-            "title": "Premium materials",
-            "content": "<p>Built to last with carefully selected, high-quality components.</p>"
-          }
-        },
-        "block-2": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 61,
-            "vertical_position": 16,
-            "horizontal_position_mobile": 43,
-            "vertical_position_mobile": 24,
-            "icon_width": 32,
-            "title": "Thoughtful design",
-            "content": "<p>Every detail is crafted to enhance usability and style.<br/></p>"
-          }
-        },
-        "block-3": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 45,
-            "vertical_position": 66,
-            "horizontal_position_mobile": 47,
-            "vertical_position_mobile": 56,
-            "icon_width": 32,
-            "title": "Seamless integration",
-            "content": "<p>Works effortlessly with your lifestyle or existing setup.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "block-1",
-        "block-2",
-        "block-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "title": "Discover the details",
-        "content": "<p>Highlight key features of your product or service by placing hotspots over an image. Use this section to guide your customers and draw attention to what matters most.</p>",
-        "button_text": "Learn more",
-        "button_url": "",
-        "desktop_text_position": "place-self-start text-start",
-        "image_background": "",
-        "image_background_gradient": "linear-gradient(90deg, rgba(77, 82, 60, 1), rgba(133, 141, 103, 1) 100%)",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "#ffffff",
-        "overlay_button_text_color": "#4d523c",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
-      }
-    },
-    "section-12": {
-      "type": "impact-text",
-      "blocks": {
-        "block-1": {
-          "type": "item",
-          "settings": {
-            "title": "6",
-            "subheading": "Hours of battery",
-            "content": "<p>Share some key points about your products.</p>",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 1.6
-          }
-        },
-        "block-2": {
-          "type": "item",
-          "settings": {
-            "title": "12",
-            "subheading": "Meters deep",
-            "content": "<p>Share some key points about your products.</p>",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": true,
-            "animate_impact_text_duration": 1.6
-          }
-        }
-      },
-      "block_order": [
-        "block-1",
-        "block-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "line",
-        "impact_text_size_ratio": 1.5,
-        "background": "",
-        "background_gradient": "linear-gradient(90deg, rgba(77, 82, 60, 1), rgba(133, 141, 103, 1) 100%)",
-        "heading_text_color": "#ffffff",
-        "heading_gradient": "",
-        "text_color": "#ffffff",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "section-13": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "block-1": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": 2,
-            "subheading": "About us",
-            "title": "Designed in New York",
-            "content": "<p>Share some content about the founders, your team and your values. Pair this text with one or multiple images to create impactful visual effect.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "block-2": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": -2,
-            "subheading": "Our products",
-            "title": "Superior design",
-            "content": "<p>Share some content abour your products and what make them unique. Pair this text with one or multiple images to create impactful visual effect.</p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "block-1",
-        "block-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "images_layout": "scattered",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "section-14": {
-      "type": "featured-product",
-      "blocks": {
-        "block-1": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "block-2": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "block-3": {
-          "type": "badges",
-          "settings": {}
-        },
-        "block-4": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "block-5": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "block-6": {
-          "type": "separator",
-          "settings": {}
-        },
-        "block-7": {
-          "type": "description",
-          "settings": {
-            "icon": "none",
-            "icon_width": 20,
-            "collapse_content": false
-          }
-        },
-        "block-8": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "block-9": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "block-10": {
-          "type": "pickup_availability",
-          "settings": {}
-        },
-        "block-11": {
-          "type": "share_buttons",
-          "settings": {
-            "alignment": "start"
-          }
-        }
-      },
-      "block_order": [
-        "block-1",
-        "block-2",
-        "block-3",
-        "block-4",
-        "block-5",
-        "block-6",
-        "block-7",
-        "block-8",
-        "block-9",
-        "block-10",
-        "block-11"
-      ],
-      "settings": {
-        "full_width": false,
-        "product": "",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
       }
     },
     "section-15": {
@@ -963,6 +676,7 @@
         "block-2",
         "block-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "subheading": "Compare",
@@ -989,163 +703,59 @@
         "chart_true_false_color": ""
       }
     },
-    "section-16": {
-      "type": "revealed-image-on-scroll",
-      "settings": {
-        "subheading": "",
-        "title": "Outstanding products with exceptional brands",
-        "background": "",
-        "text_color_inside": "#ffffff",
-        "text_color_outside": "#000000"
-      }
-    },
-    "section-17": {
-      "type": "timeline",
+    "image_with_text_overlay_Mc6a4A": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "block-1": {
-          "type": "slide",
+        "subheading_NktgJD": {
+          "type": "subheading",
           "settings": {
-            "navigation_label": "2014",
-            "subheading": "The beginning",
-            "title": "Our journey starts with a simple idea",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "text": ""
           }
         },
-        "block-2": {
-          "type": "slide",
+        "heading_G4QDLP": {
+          "type": "heading",
           "settings": {
-            "navigation_label": "2017",
-            "subheading": "First Launch",
-            "title": "Introducing our very first product to the world",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "text": "Ready to Launch Your Vending Business?",
+            "heading_tag": "h1"
           }
         },
-        "block-3": {
-          "type": "slide",
+        "richtext_BnajFG": {
+          "type": "richtext",
           "settings": {
-            "navigation_label": "2018",
-            "subheading": "Early growth",
-            "title": "Building momentum and expanding the team",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>Choose a Renvo Smart Vending Starter Kit and start selling in days.</p>"
           }
         },
-        "block-4": {
-          "type": "slide",
+        "button_cLXhfR": {
+          "type": "button",
           "settings": {
-            "navigation_label": "2019",
-            "subheading": "Going global",
-            "title": "Reaching customers across continents",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "block-5": {
-          "type": "slide",
-          "settings": {
-            "navigation_label": "2020",
-            "subheading": "Milestone achieved",
-            "title": "Celebrating 100,000 happy customers",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "block-6": {
-          "type": "slide",
-          "settings": {
-            "navigation_label": "2021",
-            "subheading": "Stronger than ever",
-            "title": "Scaling new heights and looking ahead",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "style": "fill",
+            "size": "lg",
+            "text": "Shop Kits",
+            "url": "",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "block-1",
-        "block-2",
-        "block-3",
-        "block-4",
-        "block-5",
-        "block-6"
+        "subheading_NktgJD",
+        "heading_G4QDLP",
+        "richtext_BnajFG",
+        "button_cLXhfR"
       ],
+      "name": "Image with text overlay",
       "settings": {
         "full_width": true,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "section-18": {
-      "type": "faq",
-      "blocks": {
-        "block-1": {
-          "type": "item",
-          "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
-          }
-        },
-        "block-2": {
-          "type": "item",
-          "settings": {
-            "title": "Do I need to setup an account to place an order?",
-            "content": "<p>You do not need to set up an account to place an order. However creating an account allows you to store your shipping information, see order history, and view your product’s warranty information. Additional features will be added to the account page in the near future.</p>"
-          }
-        },
-        "block-3": {
-          "type": "item",
-          "settings": {
-            "title": "Do you offer gift wrapping",
-            "content": "<p>Yes, we can wrap your item in our signature box with tissue paper, and include a card with your personal message. The option is available during checkout for an additional $5. Please note this service is not available for wireless speaker purchases.</p>"
-          }
-        },
-        "block-4": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
-          }
-        },
-        "block-5": {
-          "type": "item",
-          "settings": {
-            "title": "What is your return policy?",
-            "content": "<p>All products purchased from our website may be returned within 14 days of purchase for a full refund less shipping costs, no questions asked. International return orders may be subject to return shipping fees. To initiate such a return please <a href=\"/pages/contact\" title=\"Contact\">contact us</a>.</p>"
-          }
-        },
-        "block-6": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our <a href=\"/pages/contact\" title=\"Contact\">contact page</a>! We will be happy to assist you.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "block-1",
-        "block-2",
-        "block-3",
-        "block-4",
-        "block-5",
-        "block-6"
-      ],
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "Have a question ? We are here to help.",
-        "content": "<p>Check out the most common questions our customers asked. Still have questions ? Contact our customer support.</p>",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available monday to friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/hero-image.jpg",
+        "mobile_image": "shopify://shop_images/hero-image-mobile.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     }
   },
@@ -1154,20 +764,14 @@
     "section-2",
     "section-3",
     "section-4",
+    "rich_text_Wj4pRz",
+    "text_with_icons_yH3tpe",
     "section-5",
     "section-6",
     "multi_column_gGVTpd",
     "image_link_blocks_DzFkie",
-    "section-8",
-    "section-9",
     "section-10",
-    "section-11",
-    "section-12",
-    "section-13",
-    "section-14",
     "section-15",
-    "section-16",
-    "section-17",
-    "section-18"
+    "image_with_text_overlay_Mc6a4A"
   ]
 }
