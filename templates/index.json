@@ -227,32 +227,46 @@
     "rich_text_Wj4pRz": {
       "type": "rich-text",
       "blocks": {
-        "subheading_igFyUx": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_rahjf6": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
+            "text": "Launch Your Smart Vending Business in 3 Simple Steps",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
           }
-        },
-        "richtext_ztH6Mr": {
-          "type": "richtext",
+        }
+      },
+      "block_order": [
+        "heading_rahjf6"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_egUJ8a": {
+      "type": "rich-text",
+      "blocks": {
+        "button_aWiPLb": {
+          "type": "button",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "style": "fill",
+            "size": "xl",
+            "text": "Get Started",
+            "url": "shopify://collections/all",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "subheading_igFyUx",
-        "heading_rahjf6",
-        "richtext_ztH6Mr"
+        "button_aWiPLb"
       ],
       "name": "Rich text",
       "settings": {
@@ -276,8 +290,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+            "title": "Choose Your Starter Kit",
+            "content": "<p>Pick the pre-built kit that fits your audience and location.</p>"
           }
         },
         "item_eXMEt3": {
@@ -289,8 +303,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+            "title": "Customize Your Machine",
+            "content": "<p>Select your vending hardware and wrap design.</p>"
           }
         },
         "item_mVrCfD": {
@@ -302,8 +316,8 @@
             "icon_background_type": "circle",
             "icon_background": "",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely.</p>"
+            "title": "Start Selling in Days",
+            "content": "<p>We’ll help you get your kit delivered, stocked, and ready to operate.</p>"
           }
         }
       },
@@ -315,10 +329,10 @@
       "name": "Text with icons",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "center",
+        "heading_tag": "h4",
+        "text_alignment": "start",
         "icon_spacing": "medium",
         "background": "",
         "background_gradient": "",
@@ -766,6 +780,7 @@
     "section-4",
     "rich_text_Wj4pRz",
     "text_with_icons_yH3tpe",
+    "rich_text_egUJ8a",
     "section-5",
     "section-6",
     "multi_column_gGVTpd",
