@@ -184,17 +184,17 @@
         "chart_true_false_color": ""
       }
     },
-    "media_with_text_rrgTBq": {
+    "media_with_text_hkEtQq": {
       "type": "media-with-text",
       "blocks": {
-        "image_XjLkL6": {
+        "image_gQVgTr": {
           "type": "image",
           "settings": {
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
-            "icon_width": 48,
+            "icon_width": 72,
             "subheading": "",
             "title": "Heading",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
@@ -210,7 +210,7 @@
         }
       },
       "block_order": [
-        "image_XjLkL6"
+        "image_gQVgTr"
       ],
       "name": "Media with text",
       "settings": {
@@ -252,6 +252,7 @@
         "richtext_rkU7bJ",
         "image_9FjPpX"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -398,7 +399,7 @@
         "show_product_image": true,
         "show_product_swatch": true,
         "viewing_product": "",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -523,7 +524,7 @@
   "order": [
     "main",
     "specification_table_4htTr6",
-    "media_with_text_rrgTBq",
+    "media_with_text_hkEtQq",
     "rich_text_iFe4fa",
     "comparison_table_dCHgmp",
     "image_with_text_overlay_J77FTH",
