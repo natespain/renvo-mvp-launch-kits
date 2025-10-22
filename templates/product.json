@@ -187,17 +187,11 @@
     "rich_text_iFe4fa": {
       "type": "rich-text",
       "blocks": {
-        "subheading_zPjxNp": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_qndmry": {
           "type": "heading",
           "settings": {
             "text": "Heading",
-            "heading_tag": "h1",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -219,7 +213,6 @@
         }
       },
       "block_order": [
-        "subheading_zPjxNp",
         "heading_qndmry",
         "richtext_rkU7bJ",
         "image_9FjPpX"
@@ -227,9 +220,9 @@
       "name": "Rich text",
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
+        "content_width": "large",
+        "text_position": "start",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": ""
       }
