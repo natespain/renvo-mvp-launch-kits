@@ -128,61 +128,37 @@
         "row_B7nkq9": {
           "type": "row",
           "settings": {
-            "heading": "50 SPF Sunscreen",
-            "value": "<p>50 items</p>"
+            "heading": "Hardware Models",
+            "value": "<p>MegaWall, MiniWall, WallOfFun</p>"
           }
         },
         "row_Y6QE6Y": {
           "type": "row",
           "settings": {
-            "heading": "Sunglasses",
-            "value": "<p>20 items</p>"
-          }
-        },
-        "row_twMQxH": {
-          "type": "row",
-          "settings": {
-            "heading": "Heading 3",
-            "value": "<p>Value 3</p>"
-          }
-        },
-        "row_pTqKxg": {
-          "type": "row",
-          "settings": {
-            "heading": "Heading",
-            "value": "<p>Value</p>"
-          }
-        },
-        "row_TpeUEj": {
-          "type": "row",
-          "settings": {
-            "heading": "Heading",
-            "value": "<p>Value</p>"
-          }
-        },
-        "row_cM9bHY": {
-          "type": "row",
-          "settings": {
-            "heading": "Heading",
-            "value": "<p>Value</p>"
+            "heading": "Wrap Design Options",
+            "value": "<p>Beach Kit One, Beach Kit Generic</p>"
           }
         },
         "row_7tpUCi": {
           "type": "row",
           "settings": {
-            "heading": "Heading",
-            "value": "<p>Value</p>"
+            "heading": "Consumables",
+            "value": "<p>SPF 50 Neutrogena Sunscreen, Sunglasses, Band-Aids</p>"
+          }
+        },
+        "row_ycrQX9": {
+          "type": "row",
+          "settings": {
+            "heading": "Spec Sheet",
+            "value": "<p>For specific quantities and other kit details, download the specification pdf here.</p>"
           }
         }
       },
       "block_order": [
         "row_B7nkq9",
         "row_Y6QE6Y",
-        "row_twMQxH",
-        "row_pTqKxg",
-        "row_TpeUEj",
-        "row_cM9bHY",
-        "row_7tpUCi"
+        "row_7tpUCi",
+        "row_ycrQX9"
       ],
       "name": "Specification table",
       "settings": {
