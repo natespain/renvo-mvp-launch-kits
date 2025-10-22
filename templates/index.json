@@ -589,6 +589,7 @@
         "block-2",
         "block-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_size": "medium",

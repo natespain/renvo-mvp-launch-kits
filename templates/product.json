@@ -128,15 +128,15 @@
         "row_B7nkq9": {
           "type": "row",
           "settings": {
-            "heading": "Heading 1",
-            "value": "<p>Value 1</p>"
+            "heading": "50 SPF Sunscreen",
+            "value": "<p>50 items</p>"
           }
         },
         "row_Y6QE6Y": {
           "type": "row",
           "settings": {
-            "heading": "Heading 2",
-            "value": "<p>Value 2</p>"
+            "heading": "Sunglasses",
+            "value": "<p>20 items</p>"
           }
         },
         "row_twMQxH": {
@@ -145,12 +145,44 @@
             "heading": "Heading 3",
             "value": "<p>Value 3</p>"
           }
+        },
+        "row_pTqKxg": {
+          "type": "row",
+          "settings": {
+            "heading": "Heading",
+            "value": "<p>Value</p>"
+          }
+        },
+        "row_TpeUEj": {
+          "type": "row",
+          "settings": {
+            "heading": "Heading",
+            "value": "<p>Value</p>"
+          }
+        },
+        "row_cM9bHY": {
+          "type": "row",
+          "settings": {
+            "heading": "Heading",
+            "value": "<p>Value</p>"
+          }
+        },
+        "row_7tpUCi": {
+          "type": "row",
+          "settings": {
+            "heading": "Heading",
+            "value": "<p>Value</p>"
+          }
         }
       },
       "block_order": [
         "row_B7nkq9",
         "row_Y6QE6Y",
-        "row_twMQxH"
+        "row_twMQxH",
+        "row_pTqKxg",
+        "row_TpeUEj",
+        "row_cM9bHY",
+        "row_7tpUCi"
       ],
       "name": "Specification table",
       "settings": {
