@@ -184,6 +184,56 @@
         "chart_true_false_color": ""
       }
     },
+    "rich_text_iFe4fa": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_zPjxNp": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_qndmry": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_rkU7bJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "image_9FjPpX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hero-image.jpg",
+            "width_mode": "full_width",
+            "max_width": 1000,
+            "mobile_max_width": 600
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zPjxNp",
+        "heading_qndmry",
+        "richtext_rkU7bJ",
+        "image_9FjPpX"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -210,6 +260,7 @@
   "order": [
     "main",
     "specification_table_4htTr6",
+    "rich_text_iFe4fa",
     "related-products"
   ]
 }
