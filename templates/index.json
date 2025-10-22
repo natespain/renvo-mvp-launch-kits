@@ -241,6 +241,7 @@
       "block_order": [
         "heading_rahjf6"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -257,11 +258,11 @@
         "item_rjg3nC": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-validation",
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "",
+            "icon_background": "#70c699",
             "icon_color": "",
             "title": "Choose Your Starter Kit",
             "content": "<p>Pick the pre-built kit that fits your audience and location.</p>"
@@ -270,11 +271,11 @@
         "item_eXMEt3": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-target",
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "",
+            "icon_background": "#70c699",
             "icon_color": "",
             "title": "Customize Your Machine",
             "content": "<p>Select your vending hardware and wrap design.</p>"
@@ -283,11 +284,11 @@
         "item_mVrCfD": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-money",
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "",
+            "icon_background": "#70c699",
             "icon_color": "",
             "title": "Start Selling in Days",
             "content": "<p>We’ll help you get your kit delivered, stocked, and ready to operate.</p>"
@@ -303,10 +304,10 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": true,
-        "title": "",
-        "heading_tag": "h4",
+        "title": "Launch Your Smart Vending Business in 3 Simple Steps",
+        "heading_tag": "h5",
         "text_alignment": "center",
-        "icon_spacing": "medium",
+        "icon_spacing": "large",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -352,7 +353,7 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Smart Vending Kits for Every Market",
+        "title": "Smart Vending  for Every Market",
         "content": "",
         "link_url": "shopify://collections/all",
         "link_text": "See All Kits",
@@ -409,7 +410,7 @@
             "show_controls": false,
             "column_size": "4",
             "title": "All-in-One Packages",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "content": "<p>No need to source suppliers separately.</p>",
             "link_url": "",
             "link_text": "",
@@ -422,7 +423,7 @@
             "show_controls": false,
             "column_size": "4",
             "title": "White-Label Ready",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "content": "<p>Add your brand with wraps and displays.</p>",
             "link_url": "",
             "link_text": "",
@@ -435,7 +436,7 @@
             "show_controls": false,
             "column_size": "4",
             "title": "Operator-Focused",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "content": "<p>Built for entrepreneurs starting or scaling unattended retail.</p>",
             "link_url": "",
             "link_text": "",
@@ -448,7 +449,7 @@
             "show_controls": false,
             "column_size": "4",
             "title": "Trusted Tech",
-            "heading_tag": "h4",
+            "heading_tag": "h5",
             "content": "<p>Market-tested smart vending hardware.</p>",
             "link_url": "",
             "link_text": "",
@@ -590,7 +591,6 @@
         "block-2",
         "block-3"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "content_size": "medium",
