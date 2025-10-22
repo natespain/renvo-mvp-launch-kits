@@ -409,28 +409,6 @@
         "overlay_opacity": 30
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 6,
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Other High-Traffic Kits",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
-    },
     "faq_BWM4Xt": {
       "type": "faq",
       "blocks": {
@@ -473,7 +451,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -483,6 +461,28 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Other High-Traffic Kits",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -491,7 +491,7 @@
     "rich_text_iFe4fa",
     "comparison_table_dCHgmp",
     "image_with_text_overlay_J77FTH",
-    "related-products",
-    "faq_BWM4Xt"
+    "faq_BWM4Xt",
+    "related-products"
   ]
 }
