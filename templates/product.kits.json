@@ -294,7 +294,7 @@
         "values_TFAJDM": {
           "type": "values",
           "settings": {
-            "product": "{{ product.metafields.custom.comparison_table.value.product_1.value }}",
+            "product": "mini-wall-vending-machine",
             "value_1": "<p>{{ product.metafields.custom.comparison_table.value.hardware_specs_1.value.capacity.value }}</p>",
             "value_2": "<p>{{ product.metafields.custom.comparison_table.value.hardware_specs_1.value.payment_systems.value }}</p>",
             "value_3": "<p>Value 3</p>",
