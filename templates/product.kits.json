@@ -129,7 +129,7 @@
           "type": "row",
           "settings": {
             "heading": "Hardware Models",
-            "value": "<p>xxxxxx</p><p>{{ product.metafields.custom.kit_includes.value.kit_name.value }}</p>"
+            "value": "{{ product.metafields.custom.kit_includes.value.kit_hardware_options | metafield_tag }}"
           }
         },
         "row_Y6QE6Y": {
@@ -165,7 +165,7 @@
         "full_width": true,
         "subheading": "",
         "title": "",
-        "content": "{{ product.description }}",
+        "content": "<p>{{ product.description }}</p>",
         "button_text": "Full Specification Document",
         "button_url": "",
         "text_position": "start",
