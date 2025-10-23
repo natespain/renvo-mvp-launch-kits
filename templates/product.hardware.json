@@ -345,40 +345,6 @@
         "input_text_color": ""
       }
     },
-    "image_with_text_overlay_J77FTH": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_ct7Hrt": {
-          "type": "heading",
-          "settings": {
-            "text": "Sharkskin wrap material makes your products stand out",
-            "heading_tag": "h2"
-          }
-        },
-        "richtext_jB9E96": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_ct7Hrt",
-        "richtext_jB9E96"
-      ],
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
     "faq_BWM4Xt": {
       "type": "faq",
       "blocks": {
@@ -535,7 +501,6 @@
     "media_with_text_hkEtQq",
     "rich_text_iFe4fa",
     "main",
-    "image_with_text_overlay_J77FTH",
     "faq_BWM4Xt",
     "related-products",
     "image_link_blocks_ipmkC8"
