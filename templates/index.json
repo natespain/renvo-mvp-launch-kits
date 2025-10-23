@@ -23,7 +23,7 @@
             "title": "Smart Vending Made Easy.",
             "heading_tag": "h1",
             "button_text": "Shop all Smart Vending Kits",
-            "button_link": "shopify://collections/all",
+            "button_link": "shopify://collections/smart-vending-kits",
             "text_color": "#ffffff",
             "button_background": "#70c699",
             "button_text_color": "#000000",
@@ -322,7 +322,7 @@
             "style": "fill",
             "size": "xl",
             "text": "Get Started",
-            "url": "shopify://collections/all",
+            "url": "shopify://collections/smart-vending-kits",
             "background": "",
             "text_color": ""
           }
@@ -344,7 +344,7 @@
     "section-5": {
       "type": "featured-collection",
       "settings": {
-        "collection": "",
+        "collection": "smart-vending-kits",
         "products": [],
         "full_width": true,
         "stack_products": true,
@@ -355,14 +355,14 @@
         "subheading": "",
         "title": "Smart Vending  for Every Market",
         "content": "",
-        "link_url": "shopify://collections/all",
+        "link_url": "shopify://collections/smart-vending-kits",
         "link_text": "See All Kits",
         "background": "#fdfeff",
-        "background_gradient": "",
+        "background_gradient": "linear-gradient(142deg, rgba(112, 198, 153, 1) 14%, rgba(56, 115, 84, 1) 94%)",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "product_card_background": "#efefef",
+        "product_card_background": "#fdfeff",
         "product_card_text_color": ""
       }
     },
