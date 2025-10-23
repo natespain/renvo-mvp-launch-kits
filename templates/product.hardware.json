@@ -78,6 +78,20 @@
             "value": "<p>{{ product.metafields.custom.hardware_specifications.value.display.value }}</p>"
           }
         },
+        "row_yhwRyC": {
+          "type": "row",
+          "settings": {
+            "heading": "Dimensions",
+            "value": "<p>{{ product.metafields.custom.hardware_specifications.value.dimension.value }}</p>"
+          }
+        },
+        "row_zWLJrD": {
+          "type": "row",
+          "settings": {
+            "heading": "Weight",
+            "value": "<p>{{ product.metafields.custom.hardware_specifications.value.weights.value }}</p>"
+          }
+        },
         "row_inEbXG": {
           "type": "row",
           "settings": {
@@ -98,13 +112,6 @@
             "heading": "Warranty",
             "value": "<p>{{ product.metafields.custom.hardware_specifications.value.warranty.value }}</p>"
           }
-        },
-        "row_zWLJrD": {
-          "type": "row",
-          "settings": {
-            "heading": "Heading",
-            "value": "<p>Value</p>"
-          }
         }
       },
       "block_order": [
@@ -113,10 +120,11 @@
         "row_7tpUCi",
         "row_ycrQX9",
         "row_aahDg3",
+        "row_yhwRyC",
+        "row_zWLJrD",
         "row_inEbXG",
         "row_Qedgcr",
-        "row_4kYJqA",
-        "row_zWLJrD"
+        "row_4kYJqA"
       ],
       "name": "Specification table",
       "settings": {
