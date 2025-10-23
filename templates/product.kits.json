@@ -129,28 +129,28 @@
           "type": "row",
           "settings": {
             "heading": "Hardware Models",
-            "value": "<p>MegaWall, MiniWall, WallOfFun</p>"
+            "value": "<p>xxxxxx</p><p>{{ product.metafields.custom.kit_includes.value.kit_name.value }}</p>"
           }
         },
         "row_Y6QE6Y": {
           "type": "row",
           "settings": {
             "heading": "Wrap Design Options",
-            "value": "<p>Beach Kit One, Beach Kit Generic</p>"
+            "value": "<p>{{ product.metafields.custom.kit_includes.value.wrap_design_options | metafield_tag }}</p>"
           }
         },
         "row_7tpUCi": {
           "type": "row",
           "settings": {
             "heading": "Consumables",
-            "value": "<p>SPF 50 Neutrogena Sunscreen, Sunglasses, Band-Aids</p>"
+            "value": "<p>{{ product.metafields.custom.kit_includes.value.consumables | metafield_tag }}</p>"
           }
         },
         "row_ycrQX9": {
           "type": "row",
           "settings": {
             "heading": "Spec Sheet",
-            "value": "<p>For specific quantities and other kit details, download the specification pdf here.</p>"
+            "value": ""
           }
         }
       },
@@ -166,7 +166,7 @@
         "subheading": "",
         "title": "",
         "content": "{{ product.description }}",
-        "button_text": "",
+        "button_text": "Full Specification Document",
         "button_url": "",
         "text_position": "start",
         "max_rows": 5,
