@@ -124,7 +124,7 @@
         "subheading": "",
         "title": "{{ product.title }}",
         "content": "{{ product.description }}",
-        "button_text": "Download Brochure",
+        "button_text": "{{ product.metafields.custom.hardware_specifications.value.button_text.value }}",
         "button_url": "{{ product.metafields.custom.hardware_specifications.value.download_url.value }}",
         "text_position": "start",
         "max_rows": 5,
