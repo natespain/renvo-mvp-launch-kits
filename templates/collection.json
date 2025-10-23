@@ -12,8 +12,8 @@
     "banner": {
       "type": "collection-banner",
       "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
+        "full_width": true,
+        "allow_transparent_header": true,
         "enable_parallax": true,
         "show_collection_title": true,
         "show_collection_description": true,
