@@ -18,6 +18,7 @@
         },
         "heading_WqtBCH": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Video",
             "heading_tag": "h1"
@@ -34,10 +35,12 @@
         "allow_transparent_header": false,
         "autoplay": true,
         "video_size": "auto",
+        "video": "{{ product.metafields.custom.hardware_specifications.value.desktop_video.value }}",
+        "mobile_video": "{{ product.metafields.custom.hardware_specifications.value.mobile_video.value }}",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "specification_table_4htTr6": {
