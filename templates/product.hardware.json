@@ -419,80 +419,6 @@
         "product_card_background": "",
         "product_card_text_color": ""
       }
-    },
-    "image_link_blocks_ipmkC8": {
-      "type": "image-link-blocks",
-      "blocks": {
-        "item_qid44p": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "Test",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_dYWJhL": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_n79HQg": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_JqtCGR": {
-          "type": "item",
-          "settings": {
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item_qid44p",
-        "item_dYWJhL",
-        "item_n79HQg",
-        "item_JqtCGR"
-      ],
-      "name": "Image link blocks",
-      "settings": {
-        "full_width": false,
-        "block_size": "medium",
-        "subheading": "",
-        "title": "Available Coil Sizes",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
     }
   },
   "order": [
@@ -502,7 +428,6 @@
     "rich_text_iFe4fa",
     "main",
     "faq_BWM4Xt",
-    "related-products",
-    "image_link_blocks_ipmkC8"
+    "related-products"
   ]
 }
