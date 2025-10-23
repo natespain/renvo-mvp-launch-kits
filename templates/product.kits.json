@@ -291,68 +291,12 @@
             "heading_20": ""
           }
         },
-        "values_RDCUFN": {
-          "type": "values",
-          "settings": {
-            "product": "",
-            "value_1": "<p>Value 1</p>",
-            "value_2": "<p>Value 2</p>",
-            "value_3": "<p>Value 3</p>",
-            "value_4": "",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        },
-        "values_rfUnwQ": {
-          "type": "values",
-          "settings": {
-            "product": "",
-            "value_1": "<p>Value 1</p>",
-            "value_2": "<p>Value 2</p>",
-            "value_3": "<p>Value 3</p>",
-            "value_4": "",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        },
         "values_TFAJDM": {
           "type": "values",
           "settings": {
-            "product": "",
-            "value_1": "<p>Value 1</p>",
-            "value_2": "<p>Value 2</p>",
+            "product": "{{ product.metafields.custom.comparison_table.value.product_1.value }}",
+            "value_1": "<p>{{ product.metafields.custom.comparison_table.value.hardware_specs_1.value.capacity.value }}</p>",
+            "value_2": "<p>{{ product.metafields.custom.comparison_table.value.hardware_specs_1.value.payment_systems.value }}</p>",
             "value_3": "<p>Value 3</p>",
             "value_4": "",
             "value_5": "",
@@ -378,8 +322,6 @@
       },
       "block_order": [
         "headings_n3xqMe",
-        "values_RDCUFN",
-        "values_rfUnwQ",
         "values_TFAJDM"
       ],
       "name": "Comparison table",
