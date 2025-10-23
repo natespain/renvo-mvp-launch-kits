@@ -150,7 +150,7 @@
           "type": "row",
           "settings": {
             "heading": "Spec Sheet",
-            "value": ""
+            "value": "{{ product.metafields.custom.kit_includes.value.spec_sheet | metafield_tag }}"
           }
         }
       },
@@ -166,7 +166,7 @@
         "subheading": "",
         "title": "",
         "content": "<p>{{ product.description }}</p>",
-        "button_text": "Full Specification Document",
+        "button_text": "",
         "button_url": "",
         "text_position": "start",
         "max_rows": 5,
