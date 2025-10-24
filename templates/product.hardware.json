@@ -291,8 +291,8 @@
             "icon_position": "aligned",
             "icon": "none",
             "icon_width": 20,
-            "title": "Shipping",
-            "content": "<p>Short content about your shipping rates or discounts.</p>",
+            "title": "Stand Alone Hardware",
+            "content": "<p>Purchasing the hardware from this page does not include contents or wrap. If you are looking for a turn-key setup, <a href=\"/collections/smart-vending-kits\" title=\"Smart Vending Kits\">check out our vending kits</a></p>",
             "background": "#c5e9de",
             "text_color": "#1a1b1d"
           }
