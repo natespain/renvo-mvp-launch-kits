@@ -219,50 +219,6 @@
         "spacing": "small"
       }
     },
-    "rich_text_iFe4fa": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_qndmry": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_rkU7bJ": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "image_9FjPpX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/hero-image.jpg",
-            "width_mode": "full_width",
-            "max_width": 1000,
-            "mobile_max_width": 600
-          }
-        }
-      },
-      "block_order": [
-        "heading_qndmry",
-        "richtext_rkU7bJ",
-        "image_9FjPpX"
-      ],
-      "disabled": true,
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "large",
-        "text_position": "start",
-        "background": "#fdfeff",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "comparison_table_dCHgmp": {
       "type": "comparison-table",
       "blocks": {
@@ -406,7 +362,7 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "chart_background": "",
+        "chart_background": "#f0f4f8",
         "chart_text_color": "",
         "chart_true_false_color": ""
       }
@@ -495,7 +451,7 @@
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "",
+        "accordion_background": "#f0f4f8",
         "accordion_text_color": ""
       }
     },
@@ -526,7 +482,6 @@
     "main",
     "specification_table_4htTr6",
     "media_with_text_hkEtQq",
-    "rich_text_iFe4fa",
     "comparison_table_dCHgmp",
     "image_with_text_overlay_J77FTH",
     "faq_BWM4Xt",
