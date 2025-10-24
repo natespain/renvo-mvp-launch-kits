@@ -358,7 +358,7 @@
         "link_url": "shopify://collections/smart-vending-kits",
         "link_text": "See All Kits",
         "background": "#fdfeff",
-        "background_gradient": "linear-gradient(142deg, rgba(112, 198, 153, 1) 14%, rgba(56, 115, 84, 1) 94%)",
+        "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
