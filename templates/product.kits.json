@@ -417,14 +417,14 @@
         "heading_ct7Hrt": {
           "type": "heading",
           "settings": {
-            "text": "Sharkskin wrap material makes your products stand out",
+            "text": "Smart Materials for Smart Machines.",
             "heading_tag": "h2"
           }
         },
         "richtext_jB9E96": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>We use <strong>SharkSkin® vinyl</strong> exclusively for its best-in-class strength and finish. Scratch-resistant, fade-proof, and easy to install — it’s the professional standard for long-term branding.</p>"
           }
         }
       },
@@ -437,12 +437,13 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "image_size": "md",
+        "image": "shopify://shop_images/Sharkskin-banner_text-left.jpg",
+        "mobile_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 10
       }
     },
     "faq_BWM4Xt": {
