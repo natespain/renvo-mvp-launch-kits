@@ -165,7 +165,7 @@
         "full_width": true,
         "subheading": "",
         "title": "",
-        "content": "<p>{{ product.description }}</p>",
+        "content": "{{ product.description }}",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
