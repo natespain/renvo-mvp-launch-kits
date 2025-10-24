@@ -132,7 +132,7 @@
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "#1a1a1a",
         "heading_color": "",
@@ -308,7 +308,7 @@
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "large",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -336,7 +336,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -357,12 +357,12 @@
         "content": "",
         "link_url": "shopify://collections/smart-vending-kits",
         "link_text": "See All Kits",
-        "background": "#fdfeff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "product_card_background": "#fdfeff",
+        "product_card_background": "rgba(0,0,0,0)",
         "product_card_text_color": ""
       }
     },
@@ -392,7 +392,7 @@
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 1,
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "heading_text_color": "",
         "heading_gradient": "linear-gradient(180deg, rgba(112, 198, 153, 1), rgba(26, 26, 26, 0) 100%)",
@@ -472,7 +472,7 @@
         "subheading": "",
         "title": "",
         "content": "",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -594,7 +594,7 @@
       "settings": {
         "full_width": true,
         "content_size": "medium",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
