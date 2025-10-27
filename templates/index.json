@@ -241,13 +241,12 @@
       "block_order": [
         "heading_rahjf6"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
-        "content_width": "medium",
+        "content_width": "large",
         "text_position": "center",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -304,7 +303,7 @@
       "settings": {
         "full_width": true,
         "stack_on_mobile": true,
-        "title": "Launch Your Smart Vending Business in 3 Simple Steps",
+        "title": "",
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "large",
