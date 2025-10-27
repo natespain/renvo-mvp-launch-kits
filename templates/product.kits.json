@@ -129,7 +129,7 @@
           "type": "row",
           "settings": {
             "heading": "",
-            "value": "<h6><strong>Kit Includes</strong></h6>"
+            "value": "<h6><strong>Kit Options</strong></h6>"
           }
         },
         "row_B7nkq9": {
@@ -149,7 +149,7 @@
         "row_7tpUCi": {
           "type": "row",
           "settings": {
-            "heading": "Consumables",
+            "heading": "Consumables Included",
             "value": "<p>{{ product.metafields.custom.kit_includes.value.consumables | metafield_tag }}</p>"
           }
         },
