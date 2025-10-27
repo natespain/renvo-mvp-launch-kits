@@ -200,7 +200,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "A $12 Billion Seasonal Market, Automated",
-            "content": "<p>The U.S. beach and coastal tourism industry generates over $12 billion annually — much of it from convenience purchases made on the spot. With the Beach Essentials Smart Vending Kit, operators can automate sales of everyday beach must-haves in prime locations, scaling revenue through intelligent placement and low-maintenance retail.</p>",
+            "content": "{{ product.metafields.custom.vending_kit_market_copy | metafield_tag }}",
             "link_text": "Download Profitability Chart",
             "link_url": "",
             "background": "#fdfeff",
