@@ -125,6 +125,13 @@
     "specification_table_4htTr6": {
       "type": "specification-table",
       "blocks": {
+        "row_dUxY7w": {
+          "type": "row",
+          "settings": {
+            "heading": "",
+            "value": "<h6><strong>Kit Includes</strong></h6>"
+          }
+        },
         "row_B7nkq9": {
           "type": "row",
           "settings": {
@@ -155,6 +162,7 @@
         }
       },
       "block_order": [
+        "row_dUxY7w",
         "row_B7nkq9",
         "row_Y6QE6Y",
         "row_7tpUCi",
