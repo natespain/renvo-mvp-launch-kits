@@ -15,7 +15,7 @@
         "subheading_DpdmDF": {
           "type": "subheading",
           "settings": {
-            "text": "FAQs"
+            "text": "FAQ"
           }
         },
         "heading_epmTTW": {
@@ -44,7 +44,7 @@
         "full_width": true,
         "content_width": "medium",
         "text_position": "start",
-        "background": "",
+        "background": "#41b990",
         "background_gradient": "",
         "text_color": ""
       }
