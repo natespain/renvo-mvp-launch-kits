@@ -37,7 +37,7 @@
         "richtext_q6mjqc": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Got a question, a hiccup, or just need help picking the right gear? We're here for it. Whether you're running one vending machine or scaling a whole fleet, our team's ready to help you move faster – with less guesswork. Reach out and let's keep your retail running smart.</p>"
+            "content": "{{ page.content }}"
           }
         }
       },
