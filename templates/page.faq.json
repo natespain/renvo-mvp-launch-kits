@@ -21,7 +21,7 @@
         "heading_epmTTW": {
           "type": "heading",
           "settings": {
-            "text": "Frequently Asked Questions",
+            "text": "{{ page.title }}",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -30,7 +30,7 @@
         "richtext_my6tQC": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this page to find answers to common questions. IF you can't fin the answer you need, please don't hesitate to contact us directly.</p>"
+            "content": "{{ page.content }}"
           }
         }
       },
