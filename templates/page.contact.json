@@ -28,7 +28,7 @@
         "heading_QEEKjX": {
           "type": "heading",
           "settings": {
-            "text": "Let's Talk Shop",
+            "text": "{{ page.title }}",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
