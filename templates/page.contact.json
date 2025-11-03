@@ -56,6 +56,68 @@
         "text_color": ""
       }
     },
+    "multi_column_rrtxFd": {
+      "type": "multi-column",
+      "blocks": {
+        "item_jXKXQV": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Service & Support",
+            "heading_tag": "h4",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>",
+            "link_url": "",
+            "link_text": "Search our Knowledgebase",
+            "link_style": "button"
+          }
+        },
+        "item_KkXKkC": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Frequently Asked Questions",
+            "heading_tag": "h4",
+            "content": "<p>Your question may already be answered! Access our FAQ database here.</p>",
+            "link_url": "",
+            "link_text": "FAQs",
+            "link_style": "button"
+          }
+        },
+        "item_pVCib7": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "State Vending Permits",
+            "heading_tag": "h4",
+            "content": "<p>Do you have a question that is specific to your location? We've compiled an extensive resource of local rules.</p>",
+            "link_url": "",
+            "link_text": "Vending Permits",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "item_jXKXQV",
+        "item_KkXKkC",
+        "item_pVCib7"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "text_with_icons_HhRyRH": {
       "type": "text-with-icons",
       "blocks": {
@@ -104,6 +166,7 @@
         "item_MTURaB",
         "item_pgd93x"
       ],
+      "disabled": true,
       "name": "Text with icons",
       "settings": {
         "full_width": true,
@@ -120,32 +183,32 @@
     "rich_text_z9wrDy": {
       "type": "rich-text",
       "blocks": {
-        "subheading_AxdGKD": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_NyyGdJ": {
           "type": "heading",
           "settings": {
             "text": "Talk to a Human",
-            "heading_tag": "h1",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
+          }
+        },
+        "richtext_7aAxtU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fill out the form to send us an email. We'll respond within 48 hours.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_AxdGKD",
-        "heading_NyyGdJ"
+        "heading_NyyGdJ",
+        "richtext_7aAxtU"
       ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -186,7 +249,7 @@
         "full_width": true,
         "subheading": "",
         "title": "",
-        "content": "<p>Fill out the form to send us an email. We'll respond within 48 hours.</p>",
+        "content": "",
         "text_position": "center",
         "contact_form_size": "large",
         "background": "#fdfeff",
@@ -204,6 +267,7 @@
   "order": [
     "main",
     "rich_text_LBFEP3",
+    "multi_column_rrtxFd",
     "text_with_icons_HhRyRH",
     "rich_text_z9wrDy",
     "contact"
