@@ -22,20 +22,20 @@
         "subheading_bNxz6b": {
           "type": "subheading",
           "settings": {
-            "text": "Contact Us"
+            "text": "Service and Support"
           }
         },
         "heading_CFtkHx": {
           "type": "heading",
           "settings": {
-            "text": "Let's Talk Shop",
+            "text": "We're Here to Help",
             "heading_tag": "h1"
           }
         },
         "richtext_jNbDAX": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Got a question, a hiccup, or just need help picking the right gear? We're here for it. Whether you're running one vending machine or scaling a whole fleet, our team's ready to help you move faster – with less guesswork. Reach out and let's keep your retail running smart.</p>"
+            "content": "<p>At Renvo, support doesn't stop after checkout. Whether you need help setting up your kit, troubleshooting an issue, or figuring out your next move, our team is here to guide you. While product warranties come from the manufacturer, we'll walk with you through any issue-big or small. We're just an email or phone call away.</p><p>When you shop with Renvo, you're not just buying a kit-you're building with a partner.</p>"
           }
         }
       },
@@ -223,6 +223,59 @@
         "text_color": ""
       }
     },
+    "faq_JgKwdV": {
+      "type": "faq",
+      "blocks": {
+        "item_NAt9eX": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_p7aDrp": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_LPyCGy": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_NAt9eX",
+        "item_p7aDrp",
+        "item_LPyCGy"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "#fdfeff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "#f5f9fc",
+        "accordion_text_color": ""
+      }
+    },
     "rich_text_z9wrDy": {
       "type": "rich-text",
       "blocks": {
@@ -255,56 +308,6 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "contact": {
-      "type": "contact",
-      "blocks": {
-        "text_t7LVxq": {
-          "type": "text",
-          "settings": {
-            "title": "Custom field",
-            "use_long_text": false,
-            "required": false
-          }
-        },
-        "text_DJgHzL": {
-          "type": "text",
-          "settings": {
-            "title": "Custom field",
-            "use_long_text": false,
-            "required": false
-          }
-        },
-        "dropdown_R3XgGx": {
-          "type": "dropdown",
-          "settings": {
-            "title": "Custom field",
-            "values": "value 1, value 2, value 3"
-          }
-        }
-      },
-      "block_order": [
-        "text_t7LVxq",
-        "text_DJgHzL",
-        "dropdown_R3XgGx"
-      ],
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "text_position": "center",
-        "contact_form_size": "large",
-        "background": "#fdfeff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "contact_background": "#f5f9fc",
-        "contact_text_color": "rgba(0,0,0,0)",
-        "button_background": "",
-        "button_text_color": ""
-      }
     }
   },
   "order": [
@@ -313,7 +316,7 @@
     "rich_text_LBFEP3",
     "multi_column_rrtxFd",
     "text_with_icons_HhRyRH",
-    "rich_text_z9wrDy",
-    "contact"
+    "faq_JgKwdV",
+    "rich_text_z9wrDy"
   ]
 }
