@@ -11,10 +11,168 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "rich_text_RX9U4x": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Qa6F4d": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_j437NW": {
+          "type": "heading",
+          "settings": {
+            "text": "Sell Smarter. Partner with Renvo.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_9m3jn9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>If your products belong in a vending machine, they belong on Renvo.</p><p>We're the marketplace built for the future of unattended retail-and we're looking for top-tier partners to grow with us. When you join Renvo, you don't just list your machines or consumables. You tap into a full ecosystem built to move your products faster and easier.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Qa6F4d",
+        "heading_j437NW",
+        "richtext_9m3jn9"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_d7yiTx": {
+      "type": "multi-column",
+      "blocks": {
+        "item_7Arewr": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Built-In Audience",
+            "heading_tag": "h4",
+            "content": "<p>Your products are instantly visible to a growing network of vending operators-everyone from first-time buyers to full-scale fleet owners.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_PGxTEJ": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Shipping, Handled",
+            "heading_tag": "h4",
+            "content": "<p>We integrate with your shipping setup or handle it for you. Either way, fulfillment is smooth, smart, and stress-free.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_arfTET": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "No-Hassle Sales",
+            "heading_tag": "h4",
+            "content": "<p>No cold calls. No storefront headaches. Just real-time orders from operators who are ready to stock, scale, and re-order.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_GhjAee": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Customer Service, Covered",
+            "heading_tag": "h4",
+            "content": "<p>Our support team takes care of customer questions and order issues, so you can focus on what you do best-making great products.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_6YUVht": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Join the Leader in Smart Retail",
+            "heading_tag": "h4",
+            "content": "<p>Renvo is building the next chapter of the vending industry. Be part of the platform shaping how modern retail gets done.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_7Arewr",
+        "item_PGxTEJ",
+        "item_arfTET",
+        "item_GhjAee",
+        "item_6YUVht"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Why Partner with Renvo?",
+        "content": "",
+        "background": "#fdfeff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "contact_T8AGqa": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Let's get the process started",
+        "title": "Sound like a fit?",
+        "content": "<p>Fill out the form and let's discuss how you can start selling smarter. </p><p>No counter, no clerk, no problem.</p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#fdfeff",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_RX9U4x",
+    "multi_column_d7yiTx",
+    "contact_T8AGqa"
   ]
 }
