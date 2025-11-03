@@ -86,7 +86,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -97,27 +97,27 @@
         "item_ArfpLy": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-chat",
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "",
+            "icon_background": "#70c699",
             "icon_color": "",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+            "title": "Built-In Audience",
+            "content": "<p>Your products are instantly visible to a growing network of vending operators-everyone from first-time buyers to full-scale fleet owners.</p>"
           }
         },
         "item_HDY4p8": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-box",
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "",
+            "icon_background": "#70c699",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+            "title": "Shipping, Handled",
+            "content": "<p>We integrate with your shipping setup or handle it for you. Either way, fulfillment is smooth, smart, and stress-free.</p>"
           }
         },
         "item_DykY8H": {
@@ -127,36 +127,36 @@
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "",
+            "icon_background": "#70c699",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely.</p>"
+            "title": "No-Hassle Sales",
+            "content": "<p>No cold calls. No storefront headaches. Just real-time orders from operators who are ready to stock, scale, and re-order.</p>"
           }
         },
         "item_9Kkqhk": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-customer-support",
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "",
+            "icon_background": "#70c699",
             "icon_color": "",
-            "title": "Heading",
-            "content": "<p>Short content about your store</p>"
+            "title": "Customer Service, Covered",
+            "content": "<p>Our support team takes care of customer questions and order issues, so you can focus on what you do best-making great products.</p>"
           }
         },
         "item_KJHfqi": {
           "type": "item",
           "settings": {
-            "icon": "picto-coupon",
+            "icon": "picto-money",
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
-            "icon_background": "",
+            "icon_background": "#70c699",
             "icon_color": "",
-            "title": "Heading",
-            "content": "<p>Short content about your store</p>"
+            "title": "Join the Leader in Smart Retail",
+            "content": "<p>Renvo is building the next chapter of the vending industry. Be part of the platform shaping how modern retail gets done.</p>"
           }
         }
       },
@@ -173,9 +173,9 @@
         "stack_on_mobile": false,
         "title": "",
         "heading_tag": "h5",
-        "text_alignment": "center",
+        "text_alignment": "start",
         "icon_spacing": "medium",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": ""
       }
@@ -256,6 +256,7 @@
         "item_GhjAee",
         "item_6YUVht"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
