@@ -109,9 +109,9 @@
             "column_size": "3",
             "title": "Service & Support",
             "heading_tag": "h4",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>",
-            "link_url": "",
-            "link_text": "Search our Knowledgebase",
+            "content": "<p>Need help with your purchase? Start on our Service and Support page</p>",
+            "link_url": "shopify://pages/service-and-support",
+            "link_text": "Get Support",
             "link_style": "button"
           }
         },
