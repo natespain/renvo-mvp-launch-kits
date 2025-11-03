@@ -16,6 +16,48 @@
         "content_width": "80ch"
       }
     },
+    "image_with_text_overlay_KJyzFw": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_bNxz6b": {
+          "type": "subheading",
+          "settings": {
+            "text": "Contact Us"
+          }
+        },
+        "heading_CFtkHx": {
+          "type": "heading",
+          "settings": {
+            "text": "Let's Talk Shop",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_jNbDAX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Got a question, a hiccup, or just need help picking the right gear? We're here for it. Whether you're running one vending machine or scaling a whole fleet, our team's ready to help you move faster – with less guesswork. Reach out and let's keep your retail running smart.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_bNxz6b",
+        "heading_CFtkHx",
+        "richtext_jNbDAX"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/banner-background_Short.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
     "rich_text_LBFEP3": {
       "type": "rich-text",
       "blocks": {
@@ -46,6 +88,7 @@
         "heading_QEEKjX",
         "richtext_q6mjqc"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -266,6 +309,7 @@
   },
   "order": [
     "main",
+    "image_with_text_overlay_KJyzFw",
     "rich_text_LBFEP3",
     "multi_column_rrtxFd",
     "text_with_icons_HhRyRH",
