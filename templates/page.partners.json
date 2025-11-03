@@ -16,20 +16,55 @@
         "content_width": "80ch"
       }
     },
+    "image_with_text_overlay_7G8beg": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_bXR6pD": {
+          "type": "subheading",
+          "settings": {
+            "text": "Renvo Partners"
+          }
+        },
+        "heading_jfGViw": {
+          "type": "heading",
+          "settings": {
+            "text": "Sell Smarter. Partner with Us.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Cx83jd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>If your products belong in a vending machine, they belong on Renvo.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_bXR6pD",
+        "heading_jfGViw",
+        "richtext_Cx83jd"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/banner-background_Short.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
     "rich_text_RX9U4x": {
       "type": "rich-text",
       "blocks": {
-        "subheading_Qa6F4d": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_j437NW": {
           "type": "heading",
           "settings": {
-            "text": "Sell Smarter. Partner with Renvo.",
+            "text": "Why Partner with Renvo?",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -38,12 +73,11 @@
         "richtext_9m3jn9": {
           "type": "richtext",
           "settings": {
-            "content": "<p>If your products belong in a vending machine, they belong on Renvo.</p><p>We're the marketplace built for the future of unattended retail-and we're looking for top-tier partners to grow with us. When you join Renvo, you don't just list your machines or consumables. You tap into a full ecosystem built to move your products faster and easier.</p>"
+            "content": "<p>We're the marketplace built for the future of unattended retail-and we're looking for top-tier partners to grow with us. When you join Renvo, you don't just list your machines or consumables. You tap into a full ecosystem built to move your products faster and easier.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_Qa6F4d",
         "heading_j437NW",
         "richtext_9m3jn9"
       ],
@@ -52,6 +86,95 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text_with_icons_R6ggCa": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_ArfpLy": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+          }
+        },
+        "item_HDY4p8": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+          }
+        },
+        "item_DykY8H": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.</p>"
+          }
+        },
+        "item_9Kkqhk": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Heading",
+            "content": "<p>Short content about your store</p>"
+          }
+        },
+        "item_KJHfqi": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Heading",
+            "content": "<p>Short content about your store</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_ArfpLy",
+        "item_HDY4p8",
+        "item_DykY8H",
+        "item_9Kkqhk",
+        "item_KJHfqi"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -141,7 +264,7 @@
         "text_alignment": "start",
         "subheading": "",
         "title": "Why Partner with Renvo?",
-        "content": "",
+        "content": "<p>We're the marketplace built for the future of unattended retail-and we're looking for top-tier partners to grow with us. When you join Renvo, you don't just list your machines or consumables. You tap into a full ecosystem built to move your products faster and easier.</p>",
         "background": "#fdfeff",
         "background_gradient": "",
         "text_color": ""
@@ -171,7 +294,9 @@
   },
   "order": [
     "main",
+    "image_with_text_overlay_7G8beg",
     "rich_text_RX9U4x",
+    "text_with_icons_R6ggCa",
     "multi_column_d7yiTx",
     "contact_T8AGqa"
   ]
