@@ -1,1 +1,182 @@
-{"sections":{"main":{"type":"main-page","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "image_with_text_overlay_MCqnaC": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_HxYGFM": {
+          "type": "subheading",
+          "settings": {
+            "text": "Service and Support"
+          }
+        },
+        "heading_aDAreP": {
+          "type": "heading",
+          "settings": {
+            "text": "We're Here to Help",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_NgD3rM": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>At Renvo, support doesn't stop after checkout. Whether you need help setting up your kit, troubleshooting an issue, or figuring out your next move, our team is here to guide you. While product warranties come from the manufacturer, we'll walk with you through any issue-big or small. We're just an email or phone call away.</p><p>When you shop with Renvo, you're not just buying a kit-you're building with a partner.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_HxYGFM",
+        "heading_aDAreP",
+        "richtext_NgD3rM"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/banner-background_Short.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
+    "text_with_icons_LBMVz4": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_Ckc4QY": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Want to talk to a person?",
+            "content": ""
+          }
+        },
+        "item_qbeCCV": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+          }
+        },
+        "item_Hc9Rmn": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Ckc4QY",
+        "item_qbeCCV",
+        "item_Hc9Rmn"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "faq_WiwHhf": {
+      "type": "faq",
+      "blocks": {
+        "item_dM7aHn": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_8nryKc": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_Q7Kegi": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_dM7aHn",
+        "item_8nryKc",
+        "item_Q7Kegi"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Just got your Renvo Kit? Start Here.",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "Visit FAQ Page",
+        "button_url": "shopify://pages/frequently-asked-questions",
+        "text_position": "center",
+        "background": "#fdfeff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_MCqnaC",
+    "text_with_icons_LBMVz4",
+    "faq_WiwHhf"
+  ]
+}
