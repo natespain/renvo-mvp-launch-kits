@@ -20,7 +20,7 @@
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center-start sm:text-start",
             "subheading": "",
-            "title": "Smart Vending Made Easy.",
+            "title": "Smart Retail Made Easy.",
             "heading_tag": "h1",
             "button_text": "Shop all Smart Vending Kits",
             "button_link": "shopify://collections/smart-vending-kits",
@@ -231,7 +231,7 @@
         "heading_rahjf6": {
           "type": "heading",
           "settings": {
-            "text": "Launch Your Smart Vending Business in 3 Simple Steps",
+            "text": "Launch Your Unattended Retail Business in 3 Simple Steps",
             "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
@@ -263,7 +263,7 @@
             "icon_background_type": "circle",
             "icon_background": "#70c699",
             "icon_color": "",
-            "title": "Choose Your Smart Vending Kit",
+            "title": "Choose Your Unattended Retail Kit",
             "content": "<p>Pick the pre-built kit that fits your audience and location.</p>"
           }
         },
@@ -276,8 +276,8 @@
             "icon_background_type": "circle",
             "icon_background": "#70c699",
             "icon_color": "",
-            "title": "Customize Your Machine",
-            "content": "<p>Select your vending hardware and wrap design.</p>"
+            "title": "Customize Your Hardware",
+            "content": "<p>Select your ideal machine and wrap design.</p>"
           }
         },
         "item_mVrCfD": {

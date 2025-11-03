@@ -117,6 +117,39 @@
         "text_color": ""
       }
     },
+    "rich_text_z9wrDy": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_AxdGKD": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_NyyGdJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Talk to a Human",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_AxdGKD",
+        "heading_NyyGdJ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "contact": {
       "type": "contact",
       "blocks": {
@@ -172,6 +205,7 @@
     "main",
     "rich_text_LBFEP3",
     "text_with_icons_HhRyRH",
+    "rich_text_z9wrDy",
     "contact"
   ]
 }
