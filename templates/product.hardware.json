@@ -36,9 +36,9 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/banner-background_Short.jpg",
+        "image": "shopify://shop_images/hero-image.jpg",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 10
@@ -119,6 +119,7 @@
         "image_MhpGea",
         "image_ttDeVC"
       ],
+      "disabled": true,
       "name": "Media grid",
       "settings": {
         "full_width": true,
@@ -126,6 +127,49 @@
         "desktop_row_height": 290,
         "mobile_row_height": 150,
         "background": "",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_64hdRb": {
+      "type": "slideshow",
+      "blocks": {
+        "image_wyWRAF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hero-image.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wyWRAF"
+      ],
+      "disabled": true,
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
         "background_gradient": ""
       }
     },
@@ -615,6 +659,7 @@
   "order": [
     "image_with_text_overlay_P3x9NR",
     "media_grid_zicG9b",
+    "slideshow_64hdRb",
     "specification_table_4htTr6",
     "text_with_icons_3Tt7FK",
     "media_with_text_hkEtQq",
