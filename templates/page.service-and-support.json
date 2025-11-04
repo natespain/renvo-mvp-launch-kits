@@ -35,7 +35,7 @@
         "richtext_jNbDAX": {
           "type": "richtext",
           "settings": {
-            "content": "<p>At Renvo, support doesn't stop after checkout. Whether you need help setting up your kit, troubleshooting an issue, or figuring out your next move, our team is here to guide you. While product warranties come from the manufacturer, we'll walk with you through any issue-big or small. We're just an email or phone call away.</p><p>When you shop with Renvo, you're not just buying a kit-you're building with a partner.</p>"
+            "content": "{{ page.content }}"
           }
         }
       },
@@ -52,7 +52,7 @@
         "image_size": "auto",
         "image": "shopify://shop_images/banner-background_Short.jpg",
         "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 10
