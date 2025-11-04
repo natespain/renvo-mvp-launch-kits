@@ -1,1 +1,50 @@
-{"sections":{"main":{"type":"main-article","blocks":{"navigation":{"type":"navigation","settings":{}},"comments":{"type":"comments","settings":{}}},"block_order":["navigation","comments"],"settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "image_left_text_right",
+        "image": "shopify://shop_images/van.jpg",
+        "show_author": true,
+        "show_date": true,
+        "show_comments_count": true,
+        "show_share_buttons": true,
+        "banner_background": "#1a1a1a",
+        "banner_text_color": "#fdfeff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "content_width": "750px"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
