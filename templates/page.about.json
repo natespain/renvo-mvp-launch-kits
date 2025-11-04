@@ -115,7 +115,7 @@
         "image_67GFca": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/customer-support.jpg",
+            "image": "shopify://shop_images/flags.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
