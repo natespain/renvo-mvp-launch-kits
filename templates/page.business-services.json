@@ -9,6 +9,13 @@
  */
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
     "image_with_text_overlay_BqXgiQ": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -21,7 +28,7 @@
         "heading_UqnTJj": {
           "type": "heading",
           "settings": {
-            "text": "More Than Kits and Machines: Business Services That Power Growth",
+            "text": "More Than Kits and Machines",
             "heading_tag": "h1"
           }
         },
@@ -52,24 +59,138 @@
         "overlay_opacity": 10
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
+    "rich_text_4WKMHU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FpUk7D": {
+          "type": "heading",
+          "settings": {
+            "text": "Business Services That Power Growth",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_JTptMx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Smart retail isn't just about what's inside the machine. At Renvo, we go beyond vending and consumables. We’re here to help you build a business that’s fast to launch, easy to manage, and ready to grow.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FpUk7D",
+        "richtext_JTptMx"
+      ],
+      "name": "Rich text",
       "settings": {
-        "content_width": "80ch"
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_EePqrg": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_Q8jHLe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/van.jpg",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Marketing Services",
+            "title": "Marketing that Moves",
+            "content": "<p>From digital campaigns to print and posters, our team helps you drive traffic where it counts. We'll help you launch smarter with tools and templates that make your vending brand look as sharp as your setup.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_CMiCNc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/flags.jpg",
+            "media_width": 60,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Branding Services",
+            "title": "Branding That Sticks",
+            "content": "<p>Need a custom label? A logo that actually works on a snack pouch? We've got you. Whether you're white-labeling products or building something new, we help you show up like a pro-on the shelf and online.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_PwqKpR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/van.jpg",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Business Development Services",
+            "title": "Business Development That Opens Doors",
+            "content": "<p>Renvo connects you with new opportunities, from strategic partnerships to private-label deals. Looking to expand into gyms, offices, or campuses? We'll help you pitch, prep, and land the right accounts.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Q8jHLe",
+        "image_CMiCNc",
+        "image_PwqKpR"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
       }
     },
     "multi_column_yTtfEz": {
       "type": "multi-column",
       "blocks": {
+        "spacer_9cBqBX": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
         "item_UDqeW4": {
           "type": "item",
           "settings": {
             "show_controls": false,
             "column_size": "3",
-            "title": "Column title",
+            "title": "Guidance That Gets You There",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>You're not in this alone. Our team offers real-world advice tailored to your setup-whether you're stuck on product mix or planning your next big move. Don’t think of us as just your supplier, think of us as your vending business partner.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -80,74 +201,26 @@
           "settings": {
             "show_controls": false,
             "column_size": "3",
-            "title": "Column title",
+            "title": "Built for Operators, Backed by Experts",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Whether you're launching your first unit or managing a multi-state fleet, Renvo's business services give you the edge. Because building smart retail isn't just about selling-it's about scaling with confidence.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
           }
         },
-        "item_k8b8Lc": {
-          "type": "item",
+        "spacer_R37GDk": {
+          "type": "spacer",
           "settings": {
-            "show_controls": false,
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_3CHf9t": {
-          "type": "item",
-          "settings": {
-            "show_controls": false,
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_HdkR8H": {
-          "type": "item",
-          "settings": {
-            "show_controls": false,
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_BmYwUx": {
-          "type": "item",
-          "settings": {
-            "show_controls": false,
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "column_size": "6"
           }
         }
       },
       "block_order": [
+        "spacer_9cBqBX",
         "item_UDqeW4",
         "item_Ck8xjj",
-        "item_k8b8Lc",
-        "item_3CHf9t",
-        "item_HdkR8H",
-        "item_BmYwUx"
+        "spacer_R37GDk"
       ],
       "name": "Multi-column",
       "settings": {
@@ -155,9 +228,83 @@
         "stack_on_mobile": false,
         "gap": "medium",
         "text_alignment": "start",
-        "subheading": "About",
-        "title": "Featured content",
-        "content": "<p>Organize content into multiple columns to share useful information to your customers about your products, values...</p>",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "contact_CpGMbn": {
+      "type": "contact",
+      "name": "Contact form",
+      "settings": {
+        "full_width": true,
+        "subheading": "Contact Us",
+        "title": "Want to learn more?",
+        "content": "<p>Drop us a line below or <a href=\"/pages/about\" title=\"About\">schedule a quick call.</a> Let's build something better, together.</p>",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "#fdfeff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#f5f9fc",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "rich_text_JLTwkJ": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_Gk8Leq": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_ijnDdD": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_cHTkmf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_4YJ68V": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Gk8Leq",
+        "heading_ijnDdD",
+        "richtext_cHTkmf",
+        "button_4YJ68V"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -255,9 +402,13 @@
     }
   },
   "order": [
-    "image_with_text_overlay_BqXgiQ",
     "main",
+    "image_with_text_overlay_BqXgiQ",
+    "rich_text_4WKMHU",
+    "media_with_text_EePqrg",
     "multi_column_yTtfEz",
+    "contact_CpGMbn",
+    "rich_text_JLTwkJ",
     "text_with_icons_6GMBHr"
   ]
 }
