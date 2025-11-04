@@ -9,38 +9,124 @@
  */
 {
   "sections": {
-    "video_7EK9gr": {
-      "type": "video",
+    "image_with_text_overlay_P3x9NR": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "play_prM9Wf": {
-          "type": "play",
-          "settings": {}
-        },
-        "heading_WqtBCH": {
-          "type": "heading",
-          "disabled": true,
+        "subheading_RAdtE4": {
+          "type": "subheading",
           "settings": {
-            "text": "Video",
+            "text": "Hardware Specifications"
+          }
+        },
+        "heading_CRVnxx": {
+          "type": "heading",
+          "settings": {
+            "text": "{{ product.title }}",
             "heading_tag": "h1"
           }
         }
       },
       "block_order": [
-        "play_prM9Wf",
-        "heading_WqtBCH"
+        "subheading_RAdtE4",
+        "heading_CRVnxx"
       ],
-      "name": "Video",
+      "name": "Image with text overlay",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
-        "autoplay": true,
-        "video_size": "auto",
-        "video": "{{ product.metafields.custom.hardware_specifications.value.desktop_video.value }}",
-        "mobile_video": "{{ product.metafields.custom.hardware_specifications.value.mobile_video.value }}",
-        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/banner-background_Short.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 10
+      }
+    },
+    "media_grid_zicG9b": {
+      "type": "media-grid",
+      "blocks": {
+        "image_TgaVb4": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.featured_image }}",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MhpGea": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.featured_image }}",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ttDeVC": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.featured_image }}",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_TgaVb4",
+        "image_MhpGea",
+        "image_ttDeVC"
+      ],
+      "name": "Media grid",
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "specification_table_4htTr6": {
@@ -133,7 +219,7 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "{{ product.title }}",
+        "title": "",
         "content": "{{ product.description }}",
         "button_text": "{{ product.metafields.custom.hardware_specifications.value.button_text.value }}",
         "button_url": "{{ product.metafields.custom.hardware_specifications.value.download_url.value }}",
@@ -527,7 +613,8 @@
     }
   },
   "order": [
-    "video_7EK9gr",
+    "image_with_text_overlay_P3x9NR",
+    "media_grid_zicG9b",
     "specification_table_4htTr6",
     "text_with_icons_3Tt7FK",
     "media_with_text_hkEtQq",
