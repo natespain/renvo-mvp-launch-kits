@@ -16,6 +16,50 @@
         "content_width": "80ch"
       }
     },
+    "image_with_text_overlay_6jW3Rb": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_G44YWd": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_cdNbQ3": {
+          "type": "heading",
+          "settings": {
+            "text": "About Renvo",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_pfBzYg": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_G44YWd",
+        "heading_cdNbQ3",
+        "richtext_pfBzYg"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/banner-background_Short.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#fdfeff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
     "rich_text_YFdy9T": {
       "type": "rich-text",
       "blocks": {
@@ -32,6 +76,7 @@
       "block_order": [
         "heading_xHtXED"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -104,6 +149,7 @@
   },
   "order": [
     "main",
+    "image_with_text_overlay_6jW3Rb",
     "rich_text_YFdy9T",
     "media_with_text_PABYzb"
   ]
