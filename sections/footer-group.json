@@ -14,19 +14,6 @@
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
-        "free-shipping": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-box",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Shipping Information",
-            "content": "<p>Renvo works with a trusted network of different partners. <br/>See how we handle shipping here.</p>"
-          }
-        },
         "customer-support": {
           "type": "item",
           "settings": {
@@ -39,11 +26,24 @@
             "title": "Customer service",
             "content": "<p>Renvo acts as your service concierge. We can quickly connect you <br/>with the best support for your business. </p>"
           }
+        },
+        "free-shipping": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Shipping Information",
+            "content": "<p>Renvo works with a trusted network of different partners. <br/>See how we handle shipping here.</p>"
+          }
         }
       },
       "block_order": [
-        "free-shipping",
-        "customer-support"
+        "customer-support",
+        "free-shipping"
       ],
       "settings": {
         "full_width": true,
