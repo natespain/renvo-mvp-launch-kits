@@ -36,7 +36,7 @@
         "show_date": true,
         "show_comments_count": true,
         "show_share_buttons": true,
-        "banner_background": "#1a1a1a",
+        "banner_background": "#41b990",
         "banner_text_color": "#fdfeff",
         "overlay_color": "#000000",
         "overlay_opacity": 30,
