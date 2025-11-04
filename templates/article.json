@@ -31,7 +31,7 @@
       "settings": {
         "allow_transparent_header": false,
         "layout": "image_left_text_right",
-        "image": "shopify://shop_images/van.jpg",
+        "image": "{{ article.image }}",
         "show_author": true,
         "show_date": true,
         "show_comments_count": true,
