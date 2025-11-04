@@ -116,7 +116,7 @@
         "subheading": "",
         "title": "",
         "content": "",
-        "background": "#fdfeff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": ""
       }
@@ -206,8 +206,8 @@
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_color": "#1a1b1d",
+        "overlay_opacity": 50
       }
     },
     "rich_text_LBFEP3": {
@@ -223,6 +223,7 @@
       "block_order": [
         "richtext_q6mjqc"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,

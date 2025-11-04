@@ -85,7 +85,7 @@
       "settings": {
         "full_width": true,
         "content_width": "small",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#fdfeff",
         "background_gradient": "",
         "text_color": ""
@@ -155,7 +155,7 @@
             "icon_background_type": "circle",
             "icon_background": "#70c699",
             "icon_color": "",
-            "title": "Join the Leader in Smart Retail",
+            "title": "The Leader in Smart Retail",
             "content": "<p>Renvo is building the next chapter of the vending industry. Be part of the platform shaping how modern retail gets done.</p>"
           }
         }
@@ -173,7 +173,7 @@
         "stack_on_mobile": false,
         "title": "",
         "heading_tag": "h5",
-        "text_alignment": "start",
+        "text_alignment": "center",
         "icon_spacing": "medium",
         "background": "#fdfeff",
         "background_gradient": "",
