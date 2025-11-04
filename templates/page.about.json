@@ -21,15 +21,14 @@
       "blocks": {
         "subheading_G44YWd": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
-            "text": "Subheading"
+            "text": "About Us"
           }
         },
         "heading_cdNbQ3": {
           "type": "heading",
           "settings": {
-            "text": "About Renvo",
+            "text": "Smart Retail Starts Here",
             "heading_tag": "h1"
           }
         },
