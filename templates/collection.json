@@ -25,9 +25,9 @@
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
         "featured_product_heading": "Featured product",
-        "text_color": "#1a1b1d",
+        "text_color": "#fdfeff",
         "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "overlay_opacity": 10
       }
     },
     "main": {
