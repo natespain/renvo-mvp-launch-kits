@@ -183,6 +183,33 @@
         "text_color": ""
       }
     },
+    "image_with_text_overlay_4Fbjpx": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "richtext_RcwTQF": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ page.content }}"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_RcwTQF"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/customer-support.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "rich_text_LBFEP3": {
       "type": "rich-text",
       "blocks": {
@@ -245,7 +272,7 @@
         "team_avatar_width": 160,
         "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
         "answer_time": "Average answer time: 24h",
-        "button_text": "",
+        "button_text": "Contact Us",
         "button_url": "",
         "text_position": "center",
         "background": "#fdfeff",
@@ -258,39 +285,6 @@
         "accordion_background": "#f5f9fc",
         "accordion_text_color": ""
       }
-    },
-    "rich_text_z9wrDy": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_NyyGdJ": {
-          "type": "heading",
-          "settings": {
-            "text": "Talk to a Human",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_7aAxtU": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Fill out the form to send us an email. We'll respond within 48 hours.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_NyyGdJ",
-        "richtext_7aAxtU"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#fdfeff",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -298,8 +292,8 @@
     "image_with_text_overlay_KJyzFw",
     "multi_column_rrtxFd",
     "text_with_icons_HhRyRH",
+    "image_with_text_overlay_4Fbjpx",
     "rich_text_LBFEP3",
-    "faq_JgKwdV",
-    "rich_text_z9wrDy"
+    "faq_JgKwdV"
   ]
 }
