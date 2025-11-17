@@ -17,14 +17,14 @@
         "enable_parallax": true,
         "show_collection_title": true,
         "show_collection_description": true,
-        "show_collection_image": true,
+        "show_collection_image": false,
         "collection_title_size": "h1",
         "image_size": "sm",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
         "featured_product_heading": "Featured product",
-        "text_color": "#1a1b1d",
+        "text_color": "#70c699",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
