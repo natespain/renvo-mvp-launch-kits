@@ -258,7 +258,7 @@
           "settings": {
             "text": "Launch Your Unattended Retail Business in 3 Simple Steps",
             "heading_tag": "h2",
-            "text_color": "#fdfeff",
+            "text_color": "#1a1b1d",
             "gradient": ""
           }
         }
@@ -271,7 +271,7 @@
         "full_width": true,
         "content_width": "large",
         "text_position": "center",
-        "background": "#1a1b1d",
+        "background": "#f0f4f8",
         "background_gradient": "",
         "text_color": ""
       }
@@ -332,9 +332,9 @@
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "large",
-        "background": "#1a1b1d",
+        "background": "#f0f4f8",
         "background_gradient": "",
-        "text_color": "#fdfeff"
+        "text_color": "#1a1b1d"
       }
     },
     "rich_text_egUJ8a": {
@@ -360,7 +360,7 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#1a1b1d",
+        "background": "#f0f4f8",
         "background_gradient": "",
         "text_color": ""
       }
@@ -384,6 +384,7 @@
       "block_order": [
         "block-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -398,6 +399,41 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
+      }
+    },
+    "media_with_text_ycFPL9": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_xAcqxt": {
+          "type": "image",
+          "settings": {
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Why Renvo?",
+            "content": "<p><strong>All-in-One Packages</strong><br/>No need to source suppliers separately.<br/><br/><strong>White-Label Ready</strong><br/>Add your brand with wraps and displays.<br/><br/><strong>Operator-Focused</strong><br/>Built for entrepreneurs starting or scaling unattended retail.<br/><br/><strong>Trusted Tech</strong><br/>Market-tested smart vending hardware.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xAcqxt"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
       }
     },
     "multi_column_gGVTpd": {
@@ -462,6 +498,7 @@
         "item_MdtAEw",
         "item_Fa3fdU"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
@@ -785,6 +822,7 @@
     "text_with_icons_yH3tpe",
     "rich_text_egUJ8a",
     "section-6",
+    "media_with_text_ycFPL9",
     "multi_column_gGVTpd",
     "image_link_blocks_DzFkie",
     "section-10",
