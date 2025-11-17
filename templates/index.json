@@ -225,6 +225,31 @@
         "heading_gradient": ""
       }
     },
+    "section-5": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "smart-vending-kits",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 4,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Vending Kits for Every Market",
+        "content": "",
+        "link_url": "shopify://collections/smart-vending-kits",
+        "link_text": "See All Kits",
+        "background": "#fdfeff",
+        "background_gradient": "",
+        "text_color": "#41b990",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "rgba(0,0,0,0)",
+        "product_card_text_color": ""
+      }
+    },
     "rich_text_Wj4pRz": {
       "type": "rich-text",
       "blocks": {
@@ -323,7 +348,7 @@
             "text": "Get Started",
             "url": "shopify://collections/smart-vending-kits",
             "background": "#70c699",
-            "text_color": ""
+            "text_color": "#1a1b1d"
           }
         }
       },
@@ -338,31 +363,6 @@
         "background": "#1a1b1d",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "section-5": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "smart-vending-kits",
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_count": 4,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Smart Vending  for Every Market",
-        "content": "",
-        "link_url": "shopify://collections/smart-vending-kits",
-        "link_text": "See All Kits",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "rgba(0,0,0,0)",
-        "product_card_text_color": ""
       }
     },
     "section-6": {
@@ -769,9 +769,9 @@
         "mobile_image": "shopify://shop_images/hero-image-mobile.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
+        "text_color": "#1a1b1d",
         "overlay_color": "#000000",
-        "overlay_opacity": 15
+        "overlay_opacity": 0
       }
     }
   },
