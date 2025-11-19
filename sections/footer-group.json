@@ -11,6 +11,68 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "multi_column_dyBeyq": {
+      "type": "multi-column",
+      "blocks": {
+        "spacer_kwgPw8": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
+        "item_bKLBqP": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Customer Service",
+            "heading_tag": "h5",
+            "content": "<p>Renvo acts as your service concierge. We can quickly connect you <br/>with the best support for your business. </p>",
+            "link_url": "",
+            "link_text": "Customer service",
+            "link_style": "button"
+          }
+        },
+        "item_PPdYXj": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Shipping Information",
+            "heading_tag": "h5",
+            "content": "<p>Renvo works with a trusted network of different partners. <br/>See how we handle shipping here.</p>",
+            "link_url": "shopify://pages/service-and-support",
+            "link_text": "Shipping Information",
+            "link_style": "button"
+          }
+        },
+        "spacer_AhmxDj": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        }
+      },
+      "block_order": [
+        "spacer_kwgPw8",
+        "item_bKLBqP",
+        "item_PPdYXj",
+        "spacer_AhmxDj"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#f0f4f8",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
@@ -103,6 +165,7 @@
     }
   },
   "order": [
+    "multi_column_dyBeyq",
     "text-with-icons",
     "footer"
   ]
