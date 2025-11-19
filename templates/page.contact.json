@@ -106,7 +106,7 @@
           "type": "item",
           "settings": {
             "show_controls": false,
-            "column_size": "3",
+            "column_size": "2",
             "title": "Service & Support",
             "heading_tag": "h4",
             "content": "<p>Need help with your purchase? Start on our Service and Support page</p>",
@@ -119,7 +119,7 @@
           "type": "item",
           "settings": {
             "show_controls": false,
-            "column_size": "3",
+            "column_size": "2",
             "title": "Frequently Asked Questions",
             "heading_tag": "h4",
             "content": "<p>Your question may already be answered! Access our FAQ database here.</p>",
@@ -127,25 +127,11 @@
             "link_text": "FAQs",
             "link_style": "button"
           }
-        },
-        "item_pVCib7": {
-          "type": "item",
-          "settings": {
-            "show_controls": false,
-            "column_size": "3",
-            "title": "State Vending Permits",
-            "heading_tag": "h4",
-            "content": "<p>Do you have a question that is specific to your location? We've compiled an extensive resource of local rules.</p>",
-            "link_url": "",
-            "link_text": "Vending Permits",
-            "link_style": "button"
-          }
         }
       },
       "block_order": [
         "item_jXKXQV",
-        "item_KkXKkC",
-        "item_pVCib7"
+        "item_KkXKkC"
       ],
       "name": "Multi-column",
       "settings": {
