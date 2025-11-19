@@ -237,9 +237,9 @@
         "full_width": true,
         "content_width": "small",
         "text_position": "center",
-        "background": "#fdfeff",
+        "background": "#41b990",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#1a1b1d"
       }
     },
     "contact": {
@@ -281,7 +281,7 @@
         "content": "",
         "text_position": "center",
         "contact_form_size": "large",
-        "background": "#fdfeff",
+        "background": "#41b990",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
