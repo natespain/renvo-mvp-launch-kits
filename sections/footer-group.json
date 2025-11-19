@@ -28,7 +28,7 @@
             "title": "Customer Service",
             "heading_tag": "h5",
             "content": "<p>Renvo acts as your service concierge. We can quickly connect you <br/>with the best support for your business. </p>",
-            "link_url": "",
+            "link_url": "shopify://pages/service-and-support",
             "link_text": "Customer service",
             "link_style": "button"
           }
