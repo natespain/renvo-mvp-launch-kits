@@ -175,7 +175,7 @@
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "medium",
-        "background": "#fdfeff",
+        "background": "#f0f4f8",
         "background_gradient": "",
         "text_color": ""
       }
@@ -281,7 +281,7 @@
         "content": "<p>Fill out the form and let's discuss how you can start selling smarter. </p><p>No counter, no clerk, no problem.</p>",
         "text_position": "center",
         "contact_form_size": "large",
-        "background": "",
+        "background": "#41b990",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
