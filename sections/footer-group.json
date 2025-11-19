@@ -38,11 +38,11 @@
           "settings": {
             "show_controls": false,
             "column_size": "3",
-            "title": "Shipping Information",
+            "title": "Satisfaction Guarantee",
             "heading_tag": "h5",
-            "content": "<p>Renvo works with a trusted network of different partners. <br/>See how we handle shipping here.</p>",
-            "link_url": "shopify://pages/service-and-support",
-            "link_text": "Shipping Information",
+            "content": "<p>Every purchase comes with a 30-day satisfaction guarantee. Find out more about warranty information below.</p>",
+            "link_url": "shopify://pages/warranty",
+            "link_text": "Warranty Information",
             "link_style": "button"
           }
         },
