@@ -109,7 +109,7 @@
             "column_size": "2",
             "title": "Service & Support",
             "heading_tag": "h4",
-            "content": "<p>Need help with your purchase? Start on our Service and Support page</p>",
+            "content": "<p>Need help with your purchase? Start on our Service and Support page.</p>",
             "link_url": "shopify://pages/service-and-support",
             "link_text": "Get Support",
             "link_style": "button"
