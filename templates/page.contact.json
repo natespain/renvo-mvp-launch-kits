@@ -102,11 +102,17 @@
     "multi_column_rrtxFd": {
       "type": "multi-column",
       "blocks": {
+        "spacer_RKgT6j": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
+        },
         "item_jXKXQV": {
           "type": "item",
           "settings": {
             "show_controls": false,
-            "column_size": "2",
+            "column_size": "3",
             "title": "Service & Support",
             "heading_tag": "h4",
             "content": "<p>Need help with your purchase? Start on our Service and Support page.</p>",
@@ -119,7 +125,7 @@
           "type": "item",
           "settings": {
             "show_controls": false,
-            "column_size": "2",
+            "column_size": "3",
             "title": "Frequently Asked Questions",
             "heading_tag": "h4",
             "content": "<p>Your question may already be answered! Access our FAQ database here.</p>",
@@ -127,11 +133,19 @@
             "link_text": "FAQs",
             "link_style": "button"
           }
+        },
+        "spacer_VaLJLa": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "6"
+          }
         }
       },
       "block_order": [
+        "spacer_RKgT6j",
         "item_jXKXQV",
-        "item_KkXKkC"
+        "item_KkXKkC",
+        "spacer_VaLJLa"
       ],
       "name": "Multi-column",
       "settings": {
