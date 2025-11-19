@@ -67,11 +67,11 @@
           "settings": {
             "show_controls": false,
             "column_size": "3",
-            "title": "Service & Support",
+            "title": "Contact Us",
             "heading_tag": "h4",
             "content": "<p>Need help with your purchase? Start on our Service and Support page</p>",
-            "link_url": "shopify://pages/service-and-support",
-            "link_text": "Get Support",
+            "link_url": "shopify://pages/contact",
+            "link_text": "Contact Us",
             "link_style": "button"
           }
         },
