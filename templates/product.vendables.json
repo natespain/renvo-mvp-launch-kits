@@ -169,6 +169,7 @@
         "row_7tpUCi",
         "row_ycrQX9"
       ],
+      "disabled": true,
       "name": "Specification table",
       "settings": {
         "full_width": true,
@@ -312,6 +313,7 @@
         "values_rfUnwQ",
         "values_TFAJDM"
       ],
+      "disabled": true,
       "name": "Comparison table",
       "settings": {
         "full_width": true,
@@ -341,38 +343,76 @@
         "chart_true_false_color": ""
       }
     },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [
+          "the-beach-kit",
+          "recreation-camping-kit"
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Related Smart Vending Kits",
+        "content": "<p>Our kits have everything you need to get going right out of the box.</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "image_with_text_overlay_J77FTH": {
       "type": "image-with-text-overlay",
       "blocks": {
         "heading_ct7Hrt": {
           "type": "heading",
           "settings": {
-            "text": "Sharkskin wrap material makes your products stand out",
+            "text": "Turn Key Smart Vending Kits",
             "heading_tag": "h2"
           }
         },
         "richtext_jB9E96": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>Start your own business with our smart vending kits. Our kits have everything you need to get going right out of the box.</p>"
+          }
+        },
+        "button_UENFCq": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Vending Starter Kits",
+            "url": "shopify://collections/smart-vending-kits",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
         "heading_ct7Hrt",
-        "richtext_jB9E96"
+        "richtext_jB9E96",
+        "button_UENFCq"
       ],
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "auto",
+        "image_size": "md",
+        "image": "shopify://shop_images/banner-background_CTA.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
+        "text_color": "#1a1b1d",
         "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "overlay_opacity": 0
       }
     },
     "faq_BWM4Xt": {
@@ -427,36 +467,14 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 6,
-        "products": [],
-        "full_width": true,
-        "stack_products": true,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Other High-Traffic Kits",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
-      }
     }
   },
   "order": [
     "main",
     "specification_table_4htTr6",
     "comparison_table_dCHgmp",
+    "related-products",
     "image_with_text_overlay_J77FTH",
-    "faq_BWM4Xt",
-    "related-products"
+    "faq_BWM4Xt"
   ]
 }
