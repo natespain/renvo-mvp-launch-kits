@@ -9,39 +9,117 @@
  */
 {
   "sections": {
-    "image_with_text_overlay_P3x9NR": {
-      "type": "image-with-text-overlay",
+    "main": {
+      "type": "main-product",
       "blocks": {
-        "subheading_RAdtE4": {
-          "type": "subheading",
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
           "settings": {
-            "text": "Hardware Details"
+            "heading_tag": "h2"
           }
         },
-        "heading_CRVnxx": {
-          "type": "heading",
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
           "settings": {
-            "text": "{{ product.title }}",
-            "heading_tag": "h1"
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "sku_KL9Axj": {
+          "type": "sku",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "offer_xxM8Rf": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Stand Alone Hardware",
+            "content": "<p>Purchasing the hardware from this page does not include contents or wrap. If you are looking for a turn-key setup, <a href=\"/collections/smart-vending-kits\" title=\"Smart Vending Kits\">check out our vending kits</a></p>",
+            "background": "#c5e9de",
+            "text_color": "#1a1b1d"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
           }
         }
       },
       "block_order": [
-        "subheading_RAdtE4",
-        "heading_CRVnxx"
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "sku_KL9Axj",
+        "separator",
+        "variant_picker",
+        "offer_xxM8Rf",
+        "quantity_selector",
+        "buy_buttons"
       ],
-      "name": "Image with text overlay",
       "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/hero-image.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 10
+        "full_width": false,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
       }
     },
     "media_grid_zicG9b": {
@@ -169,7 +247,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": ""
       }
     },
@@ -451,119 +529,6 @@
         "text_color": ""
       }
     },
-    "main": {
-      "type": "main-product",
-      "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {}
-        },
-        "sku_KL9Axj": {
-          "type": "sku",
-          "settings": {}
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "offer_xxM8Rf": {
-          "type": "offer",
-          "settings": {
-            "text_alignment": "start",
-            "icon_position": "aligned",
-            "icon": "none",
-            "icon_width": 20,
-            "title": "Stand Alone Hardware",
-            "content": "<p>Purchasing the hardware from this page does not include contents or wrap. If you are looking for a turn-key setup, <a href=\"/collections/smart-vending-kits\" title=\"Smart Vending Kits\">check out our vending kits</a></p>",
-            "background": "#c5e9de",
-            "text_color": "#1a1b1d"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": false,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "vendor",
-        "title",
-        "badges",
-        "price",
-        "rating",
-        "payment_terms",
-        "sku_KL9Axj",
-        "separator",
-        "variant_picker",
-        "offer_xxM8Rf",
-        "quantity_selector",
-        "buy_buttons"
-      ],
-      "settings": {
-        "full_width": false,
-        "show_fixed_add_to_cart": true,
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": false,
-        "enable_video_looping": true,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
-    },
     "faq_BWM4Xt": {
       "type": "faq",
       "blocks": {
@@ -657,14 +622,13 @@
     }
   },
   "order": [
-    "image_with_text_overlay_P3x9NR",
+    "main",
     "media_grid_zicG9b",
     "slideshow_64hdRb",
     "specification_table_4htTr6",
     "text_with_icons_3Tt7FK",
     "media_with_text_hkEtQq",
     "rich_text_iFe4fa",
-    "main",
     "faq_BWM4Xt",
     "related-products"
   ]
