@@ -343,6 +343,29 @@
         "chart_true_false_color": ""
       }
     },
+    "related_products_8WTaMn": {
+      "type": "related-products",
+      "name": "Related products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Related Vendables",
+        "content": "<p>These vendables may be worth looking at to sell alongside your selection.</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -359,7 +382,7 @@
         "subheading": "",
         "title": "Related Smart Vending Kits",
         "content": "<p>Our kits have everything you need to get going right out of the box.</p>",
-        "background": "",
+        "background": "#f0f4f8",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -401,6 +424,7 @@
         "richtext_jB9E96",
         "button_UENFCq"
       ],
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -473,6 +497,7 @@
     "main",
     "specification_table_4htTr6",
     "comparison_table_dCHgmp",
+    "related_products_8WTaMn",
     "related-products",
     "image_with_text_overlay_J77FTH",
     "faq_BWM4Xt"
