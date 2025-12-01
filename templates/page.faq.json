@@ -102,13 +102,6 @@
     "faq_BiwdYq": {
       "type": "faq",
       "blocks": {
-        "item_DpKCK4": {
-          "type": "item",
-          "settings": {
-            "title": "{{ metaobjects.faqs[\"how-do-you-start-a-vending-machine-business\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"how-do-you-start-a-vending-machine-business\"].answer | metafield_tag }}"
-          }
-        },
         "item_wJMeDq": {
           "type": "item",
           "settings": {
@@ -121,6 +114,20 @@
           "settings": {
             "title": "{{ metaobjects.faqs[\"what-are-the-best-solutions-for-unattended-retail\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"what-are-the-best-solutions-for-unattended-retail\"].answer | metafield_tag }}"
+          }
+        },
+        "item_DpKCK4": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"how-do-you-start-a-vending-machine-business\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"how-do-you-start-a-vending-machine-business\"].answer | metafield_tag }}"
+          }
+        },
+        "item_LGeJie": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"do-you-sell-vending-machines\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"do-you-sell-vending-machines\"].answer | metafield_tag }}"
           }
         },
         "item_MzFxJg": {
@@ -171,27 +178,20 @@
             "title": "{{ metaobjects.faqs[\"how-to-get-your-product-into-vending-machines\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"how-to-get-your-product-into-vending-machines\"].answer | metafield_tag }}"
           }
-        },
-        "item_LGeJie": {
-          "type": "item",
-          "settings": {
-            "title": "{{ metaobjects.faqs[\"do-you-sell-vending-machines\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"do-you-sell-vending-machines\"].answer | metafield_tag }}"
-          }
         }
       },
       "block_order": [
-        "item_DpKCK4",
         "item_wJMeDq",
         "item_iX8PUU",
+        "item_DpKCK4",
+        "item_LGeJie",
         "item_MzFxJg",
         "item_wwPQcn",
         "item_CKp6iX",
         "item_bdHfNB",
         "item_aP3qQR",
         "item_xPpBcM",
-        "item_Te4eFA",
-        "item_LGeJie"
+        "item_Te4eFA"
       ],
       "name": "FAQ",
       "settings": {
