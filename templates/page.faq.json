@@ -157,6 +157,13 @@
             "title": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine-permit\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine-permit\"].answer | metafield_tag }}"
           }
+        },
+        "item_xPpBcM": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"where-do-vending-machine-owners-buy-their-product\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"where-do-vending-machine-owners-buy-their-product\"].answer | metafield_tag }}"
+          }
         }
       },
       "block_order": [
@@ -167,7 +174,8 @@
         "item_wwPQcn",
         "item_CKp6iX",
         "item_bdHfNB",
-        "item_aP3qQR"
+        "item_aP3qQR",
+        "item_xPpBcM"
       ],
       "name": "FAQ",
       "settings": {
