@@ -171,6 +171,13 @@
             "title": "{{ metaobjects.faqs[\"how-to-get-your-product-into-vending-machines\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"how-to-get-your-product-into-vending-machines\"].answer | metafield_tag }}"
           }
+        },
+        "item_LGeJie": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "content": "<p>{{ metaobjects.faqs[\"how-to-get-your-product-into-vending-machines\"].answer | metafield_tag }}</p>"
+          }
         }
       },
       "block_order": [
@@ -183,7 +190,8 @@
         "item_bdHfNB",
         "item_aP3qQR",
         "item_xPpBcM",
-        "item_Te4eFA"
+        "item_Te4eFA",
+        "item_LGeJie"
       ],
       "name": "FAQ",
       "settings": {
