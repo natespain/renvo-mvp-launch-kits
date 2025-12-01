@@ -178,6 +178,13 @@
             "title": "{{ metaobjects.faqs[\"how-to-get-your-product-into-vending-machines\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"how-to-get-your-product-into-vending-machines\"].answer | metafield_tag }}"
           }
+        },
+        "item_TGyHPW": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"what-does-renvo-do\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"what-does-renvo-do\"].answer | metafield_tag }}"
+          }
         }
       },
       "block_order": [
@@ -191,7 +198,8 @@
         "item_bdHfNB",
         "item_aP3qQR",
         "item_xPpBcM",
-        "item_Te4eFA"
+        "item_Te4eFA",
+        "item_TGyHPW"
       ],
       "name": "FAQ",
       "settings": {
