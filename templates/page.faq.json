@@ -133,8 +133,15 @@
         "item_wwPQcn": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faqs[\"where-to-buy-vending-machines\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"where-to-buy-vending-machines\"].answer | metafield_tag }}"
+          }
+        },
+        "item_CKp6iX": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"where-to-buy-vending-machines\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"where-to-buy-vending-machines\"].answer | metafield_tag }}"
           }
         }
       },
@@ -143,7 +150,8 @@
         "item_wJMeDq",
         "item_iX8PUU",
         "item_MzFxJg",
-        "item_wwPQcn"
+        "item_wwPQcn",
+        "item_CKp6iX"
       ],
       "name": "FAQ",
       "settings": {
