@@ -213,6 +213,13 @@
             "title": "{{ metaobjects.faqs[\"do-you-offer-tech-support\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"do-you-offer-tech-support\"].answer | metafield_tag }}"
           }
+        },
+        "item_RK7eDA": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"what-payment-methods-do-you-accept\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"what-payment-methods-do-you-accept\"].answer | metafield_tag }}"
+          }
         }
       },
       "block_order": [
@@ -231,7 +238,8 @@
         "item_ixQEqh",
         "item_dtdrhW",
         "item_pHzaDE",
-        "item_GzkBQa"
+        "item_GzkBQa",
+        "item_RK7eDA"
       ],
       "name": "FAQ",
       "settings": {
