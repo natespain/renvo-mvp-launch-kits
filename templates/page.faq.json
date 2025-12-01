@@ -192,6 +192,13 @@
             "title": "{{ metaobjects.faqs[\"what-products-can-i-stock-my-vending-machine-with\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"what-products-can-i-stock-my-vending-machine-with\"].answer | metafield_tag }}"
           }
+        },
+        "item_dtdrhW": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"can-i-sell-my-own-products-through-renvo\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"can-i-sell-my-own-products-through-renvo\"].answer | metafield_tag }}"
+          }
         }
       },
       "block_order": [
@@ -207,7 +214,8 @@
         "item_xPpBcM",
         "item_Te4eFA",
         "item_TGyHPW",
-        "item_ixQEqh"
+        "item_ixQEqh",
+        "item_dtdrhW"
       ],
       "name": "FAQ",
       "settings": {
