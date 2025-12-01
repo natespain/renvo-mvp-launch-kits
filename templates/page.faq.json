@@ -206,6 +206,13 @@
             "title": "{{ metaobjects.faqs[\"is-there-a-minimum-order\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"is-there-a-minimum-order\"].answer | metafield_tag }}"
           }
+        },
+        "item_GzkBQa": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"is-there-a-minimum-order\"].question.value }}",
+            "content": "<p>{{ metaobjects.faqs[\"is-there-a-minimum-order\"].answer | metafield_tag }}</p>"
+          }
         }
       },
       "block_order": [
@@ -223,7 +230,8 @@
         "item_TGyHPW",
         "item_ixQEqh",
         "item_dtdrhW",
-        "item_pHzaDE"
+        "item_pHzaDE",
+        "item_GzkBQa"
       ],
       "name": "FAQ",
       "settings": {
@@ -247,12 +255,66 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "faq_j3hthW": {
+      "type": "faq",
+      "blocks": {
+        "item_hURnDE": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"how-fast-is-shipping\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"how-fast-is-shipping\"].answer | metafield_tag }}"
+          }
+        },
+        "item_ndhKTa": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_zG9eKw": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_hURnDE",
+        "item_ndhKTa",
+        "item_zG9eKw"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Shipping",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
     "image_with_text_overlay_74Mwpt",
     "rich_text_9jFBRb",
     "main",
-    "faq_BiwdYq"
+    "faq_BiwdYq",
+    "faq_j3hthW"
   ]
 }
