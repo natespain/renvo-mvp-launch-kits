@@ -126,8 +126,15 @@
         "item_MzFxJg": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"what-are-the-best-solutions-for-unattended-retail\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"what-are-the-best-solutions-for-unattended-retail\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine\"].answer | metafield_tag }}"
+          }
+        },
+        "item_wwPQcn": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine\"].answer | metafield_tag }}"
           }
         }
       },
@@ -135,7 +142,8 @@
         "item_DpKCK4",
         "item_wJMeDq",
         "item_iX8PUU",
-        "item_MzFxJg"
+        "item_MzFxJg",
+        "item_wwPQcn"
       ],
       "name": "FAQ",
       "settings": {
