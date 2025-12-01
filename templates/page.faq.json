@@ -210,8 +210,8 @@
         "item_GzkBQa": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"is-there-a-minimum-order\"].question.value }}",
-            "content": "<p>{{ metaobjects.faqs[\"is-there-a-minimum-order\"].answer | metafield_tag }}</p>"
+            "title": "{{ metaobjects.faqs[\"do-you-offer-tech-support\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"do-you-offer-tech-support\"].answer | metafield_tag }}"
           }
         }
       },
