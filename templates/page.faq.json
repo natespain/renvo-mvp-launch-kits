@@ -280,19 +280,11 @@
             "title": "{{ metaobjects.faqs[\"where-do-you-ship\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"where-do-you-ship\"].answer | metafield_tag }}"
           }
-        },
-        "item_zG9eKw": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
-          }
         }
       },
       "block_order": [
         "item_hURnDE",
-        "item_ndhKTa",
-        "item_zG9eKw"
+        "item_ndhKTa"
       ],
       "name": "FAQ",
       "settings": {
@@ -333,19 +325,11 @@
             "title": "{{ metaobjects.faqs[\"what-if-somethings-not-right\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"what-if-somethings-not-right\"].answer | metafield_tag }}"
           }
-        },
-        "item_xgUnTW": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
-          }
         }
       },
       "block_order": [
         "item_gka4tV",
-        "item_kwpNhb",
-        "item_xgUnTW"
+        "item_kwpNhb"
       ],
       "name": "FAQ",
       "settings": {
