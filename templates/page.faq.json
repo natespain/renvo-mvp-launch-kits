@@ -164,6 +164,13 @@
             "title": "{{ metaobjects.faqs[\"where-do-vending-machine-owners-buy-their-product\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"where-do-vending-machine-owners-buy-their-product\"].answer | metafield_tag }}"
           }
+        },
+        "item_Te4eFA": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"how-to-get-your-product-into-vending-machines\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"how-to-get-your-product-into-vending-machines\"].answer | metafield_tag }}"
+          }
         }
       },
       "block_order": [
@@ -175,7 +182,8 @@
         "item_CKp6iX",
         "item_bdHfNB",
         "item_aP3qQR",
-        "item_xPpBcM"
+        "item_xPpBcM",
+        "item_Te4eFA"
       ],
       "name": "FAQ",
       "settings": {
