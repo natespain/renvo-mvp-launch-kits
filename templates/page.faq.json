@@ -105,8 +105,8 @@
         "item_DpKCK4": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "{{ metaobjects.faqs[\"how-do-you-start-a-vending-machine-business\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"how-do-you-start-a-vending-machine-business\"].answer | metafield_tag }}"
           }
         },
         "item_wJMeDq": {
@@ -133,8 +133,8 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "FAQ",
-        "content": "<p>This is a list of Frequently Asked Questions from our customers.</p>",
+        "title": "General",
+        "content": "",
         "team_avatar_width": 160,
         "support_hours": "Our customer support is available Monday to Friday: 8am-5pm EST.",
         "answer_time": "Average answer time: 24h",
