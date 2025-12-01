@@ -143,6 +143,20 @@
             "title": "{{ metaobjects.faqs[\"where-can-i-put-a-vending-machine\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"where-can-i-put-a-vending-machine\"].answer | metafield_tag }}"
           }
+        },
+        "item_bdHfNB": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"are-vending-machines-profitable\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"are-vending-machines-profitable\"].answer | metafield_tag }}"
+          }
+        },
+        "item_aP3qQR": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine-permit\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine-permit\"].answer | metafield_tag }}"
+          }
         }
       },
       "block_order": [
@@ -151,7 +165,9 @@
         "item_iX8PUU",
         "item_MzFxJg",
         "item_wwPQcn",
-        "item_CKp6iX"
+        "item_CKp6iX",
+        "item_bdHfNB",
+        "item_aP3qQR"
       ],
       "name": "FAQ",
       "settings": {
