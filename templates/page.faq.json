@@ -140,8 +140,8 @@
         "item_CKp6iX": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"where-to-buy-vending-machines\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"where-to-buy-vending-machines\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faqs[\"where-can-i-put-a-vending-machine\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"where-can-i-put-a-vending-machine\"].answer | metafield_tag }}"
           }
         }
       },
