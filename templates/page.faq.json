@@ -112,22 +112,30 @@
         "item_wJMeDq": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "{{ metaobjects.faqs[\"what-is-unattended-retail\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"what-is-unattended-retail\"].answer | metafield_tag }}"
           }
         },
         "item_iX8PUU": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "{{ metaobjects.faqs[\"what-are-the-best-solutions-for-unattended-retail\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"what-are-the-best-solutions-for-unattended-retail\"].answer | metafield_tag }}"
+          }
+        },
+        "item_MzFxJg": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"what-are-the-best-solutions-for-unattended-retail\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"what-are-the-best-solutions-for-unattended-retail\"].answer | metafield_tag }}"
           }
         }
       },
       "block_order": [
         "item_DpKCK4",
         "item_wJMeDq",
-        "item_iX8PUU"
+        "item_iX8PUU",
+        "item_MzFxJg"
       ],
       "name": "FAQ",
       "settings": {
