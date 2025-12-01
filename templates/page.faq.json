@@ -323,8 +323,8 @@
         "item_gka4tV": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "{{ metaobjects.faqs[\"what-should-i-expect-with-my-kit\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"what-should-i-expect-with-my-kit\"].answer | metafield_tag }}"
           }
         },
         "item_kwpNhb": {
