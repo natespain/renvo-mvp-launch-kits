@@ -175,8 +175,8 @@
         "item_LGeJie": {
           "type": "item",
           "settings": {
-            "title": "",
-            "content": "<p>{{ metaobjects.faqs[\"how-to-get-your-product-into-vending-machines\"].answer | metafield_tag }}</p>"
+            "title": "{{ metaobjects.faqs[\"do-you-sell-vending-machines\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"do-you-sell-vending-machines\"].answer | metafield_tag }}"
           }
         }
       },
