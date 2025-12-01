@@ -199,6 +199,13 @@
             "title": "{{ metaobjects.faqs[\"can-i-sell-my-own-products-through-renvo\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"can-i-sell-my-own-products-through-renvo\"].answer | metafield_tag }}"
           }
+        },
+        "item_pHzaDE": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"is-there-a-minimum-order\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"is-there-a-minimum-order\"].answer | metafield_tag }}"
+          }
         }
       },
       "block_order": [
@@ -215,7 +222,8 @@
         "item_Te4eFA",
         "item_TGyHPW",
         "item_ixQEqh",
-        "item_dtdrhW"
+        "item_dtdrhW",
+        "item_pHzaDE"
       ],
       "name": "FAQ",
       "settings": {
