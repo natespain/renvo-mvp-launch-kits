@@ -185,6 +185,13 @@
             "title": "{{ metaobjects.faqs[\"what-does-renvo-do\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"what-does-renvo-do\"].answer | metafield_tag }}"
           }
+        },
+        "item_ixQEqh": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"what-products-can-i-stock-my-vending-machine-with\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"what-products-can-i-stock-my-vending-machine-with\"].answer | metafield_tag }}"
+          }
         }
       },
       "block_order": [
@@ -199,7 +206,8 @@
         "item_aP3qQR",
         "item_xPpBcM",
         "item_Te4eFA",
-        "item_TGyHPW"
+        "item_TGyHPW",
+        "item_ixQEqh"
       ],
       "name": "FAQ",
       "settings": {
