@@ -210,7 +210,7 @@
             "title": "",
             "content": "{{ product.metafields.custom.vending_kit_market_copy | metafield_tag }}",
             "link_text": "Download Profitability Chart",
-            "link_url": "",
+            "link_url": "{{ product.metafields.custom.hardware_specifications.value.download_url.value }}",
             "background": "#fdfeff",
             "background_gradient": "",
             "text_color": "#1a1b1d",
