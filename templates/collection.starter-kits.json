@@ -35,8 +35,8 @@
         "promotion_image_attdYG": {
           "type": "promotion_image",
           "settings": {
-            "position": 4,
-            "column_span": "2",
+            "position": 5,
+            "column_span": "1",
             "image": "shopify://shop_images/banner-light-background_CTA_ee1d8b09-da71-45a3-9946-381af1d342a0.jpg",
             "title": "Need a custom kit?",
             "content": "<p>Whether you want to swap a few items or build a fully white-labeled setup, we’ll put together a kit that fits your operation. Tell us what you need, and we’ll handle the rest.</p>",
