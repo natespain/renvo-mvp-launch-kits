@@ -31,6 +31,28 @@
     },
     "main": {
       "type": "main-collection",
+      "blocks": {
+        "promotion_image_kcjXb6": {
+          "type": "promotion_image",
+          "settings": {
+            "position": 7,
+            "column_span": "1",
+            "image": "shopify://shop_images/banner-green-background_CTA.jpg",
+            "title": "Can’t find what you need?",
+            "content": "<p>Looking for a specific product, a new category, or another variation? Tell us what you’re after — we’ll source the right vendable for your operation.</p>",
+            "link_url": "",
+            "link_text": "Request a Vendable",
+            "heading_tag": "h2",
+            "text_position": "place-self-end-start text-start",
+            "text_color": "#1a1b1d",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "promotion_image_kcjXb6"
+      ],
       "settings": {
         "products_per_page": 24,
         "products_per_row_mobile": "2",
