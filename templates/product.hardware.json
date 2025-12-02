@@ -367,7 +367,7 @@
         "item_iNRPV7": {
           "type": "item",
           "settings": {
-            "icon": "picto-love",
+            "icon": "picto-validation",
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
@@ -380,7 +380,7 @@
         "item_nXyzRP": {
           "type": "item",
           "settings": {
-            "icon": "picto-star",
+            "icon": "picto-validation",
             "mobile_icon_width": 24,
             "icon_width": 32,
             "icon_background_type": "circle",
@@ -445,7 +445,7 @@
         "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "medium",
-        "background": "",
+        "background": "#f0f4f8",
         "background_gradient": "",
         "text_color": ""
       }
@@ -478,6 +478,7 @@
       "block_order": [
         "image_gQVgTr"
       ],
+      "disabled": true,
       "name": "Media with text",
       "settings": {
         "full_width": false,
