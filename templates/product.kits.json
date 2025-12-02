@@ -198,7 +198,7 @@
         "video_WwDM8J": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/breeze moving plant and shadows. Waves crashing in ocean..mp4",
+            "video": "{{ product.metafields.custom.vending_kit_market_section_image.value }}",
             "external_video_url": "",
             "autoplay": true,
             "media_width": 50,
