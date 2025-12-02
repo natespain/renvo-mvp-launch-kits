@@ -37,10 +37,10 @@
           "settings": {
             "position": 4,
             "column_span": "2",
-            "image": "shopify://shop_images/banner-background_CTA.jpg",
+            "image": "shopify://shop_images/banner-light-background_CTA_2b7f637d-20ca-4da2-933d-a10e1e5ba9c1.jpg",
             "title": "Need a custom kit?",
             "content": "<p>Whether you want to swap a few items or build a fully white-labeled setup, we’ll put together a kit that fits your operation. Tell us what you need, and we’ll handle the rest.</p>",
-            "link_url": "",
+            "link_url": "shopify://pages/warranty",
             "link_text": "Start a Custom Kit",
             "heading_tag": "h1",
             "text_position": "place-self-end-start text-start",
