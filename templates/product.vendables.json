@@ -445,29 +445,37 @@
         "item_BcfTCM": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "{{ product.metafields.custom.product_faqs.value.faq_1.value.question.value }}",
+            "content": "{{ product.metafields.custom.product_faqs.value.faq_1.value.answer | metafield_tag }}"
           }
         },
         "item_3NE3pM": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "{{ product.metafields.custom.product_faqs.value.faq_2.value.question.value }}",
+            "content": "{{ product.metafields.custom.product_faqs.value.faq_1.value.answer | metafield_tag }}"
           }
         },
         "item_y9KeLy": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "{{ product.metafields.custom.product_faqs.value.faq_3.value.question.value }}",
+            "content": "{{ product.metafields.custom.product_faqs.value.faq_3.value.answer | metafield_tag }}"
+          }
+        },
+        "item_tifdVP": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.product_faqs.value.faq_4.value.question.value }}",
+            "content": "{{ product.metafields.custom.product_faqs.value.faq_4.value.answer | metafield_tag }}"
           }
         }
       },
       "block_order": [
         "item_BcfTCM",
         "item_3NE3pM",
-        "item_y9KeLy"
+        "item_y9KeLy",
+        "item_tifdVP"
       ],
       "name": "FAQ",
       "settings": {
