@@ -42,11 +42,11 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/banner-background_Short.jpg",
+        "image_size": "sm",
+        "image": "shopify://shop_images/banner-dark-background_CTA.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#1a1b1d",
+        "text_color": "#fdfeff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
