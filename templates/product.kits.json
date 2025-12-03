@@ -437,12 +437,28 @@
             "title": "{{ product.metafields.custom.product_faqs.value.faq_3.value.question.value }}",
             "content": "{{ product.metafields.custom.product_faqs.value.faq_3.value.answer | metafield_tag }}"
           }
+        },
+        "item_FpTAKg": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.product_faqs.value.faq_4.value.question.value }}",
+            "content": "{{ product.metafields.custom.product_faqs.value.faq_4.value.answer | metafield_tag }}"
+          }
+        },
+        "item_EN9FL8": {
+          "type": "item",
+          "settings": {
+            "title": "{{ product.metafields.custom.product_faqs.value.faq_5.value.question.value }}",
+            "content": "{{ product.metafields.custom.product_faqs.value.faq_5.value.answer | metafield_tag }}"
+          }
         }
       },
       "block_order": [
         "item_BcfTCM",
         "item_3NE3pM",
-        "item_y9KeLy"
+        "item_y9KeLy",
+        "item_FpTAKg",
+        "item_EN9FL8"
       ],
       "name": "FAQ",
       "settings": {
