@@ -9,75 +9,6 @@
  */
 {
   "sections": {
-    "image_with_text_overlay_jFmnqK": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_nHkqYR": {
-          "type": "subheading",
-          "settings": {
-            "text": "Blog"
-          }
-        },
-        "heading_QxLLe8": {
-          "type": "heading",
-          "settings": {
-            "text": "{{ blog.title }}",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_nHkqYR",
-        "heading_QxLLe8"
-      ],
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "blog_posts_gLfTca": {
-      "type": "blog-posts",
-      "blocks": {
-        "blog_TCTFTx": {
-          "type": "blog",
-          "settings": {
-            "blog": "news",
-            "posts_count": 6,
-            "stack_items": true
-          }
-        }
-      },
-      "block_order": [
-        "blog_TCTFTx"
-      ],
-      "name": "Blog posts",
-      "settings": {
-        "full_width": true,
-        "show_excerpt": true,
-        "show_date": true,
-        "show_author": false,
-        "show_comments_count": false,
-        "show_category": true,
-        "subheading": "",
-        "title": "Blog posts",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "main": {
       "type": "main-blog",
       "blocks": {
@@ -102,7 +33,7 @@
         "content": "",
         "show_newsletter_form": false,
         "show_tags": true,
-        "banner_background": "#41b990",
+        "banner_background": "#1a1a1a",
         "banner_text_color": "#fdfeff",
         "button_background": "#1a1b1d",
         "button_text_color": "#fdfeff",
@@ -119,8 +50,6 @@
     }
   },
   "order": [
-    "image_with_text_overlay_jFmnqK",
-    "blog_posts_gLfTca",
     "main"
   ]
 }
