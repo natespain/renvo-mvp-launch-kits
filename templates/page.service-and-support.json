@@ -107,6 +107,55 @@
         "item_KkXKkC",
         "item_pVCib7"
       ],
+      "disabled": true,
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_zdHDAc": {
+      "type": "multi-column",
+      "blocks": {
+        "item_thgzqK": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "2",
+            "title": "Contact Us",
+            "heading_tag": "h4",
+            "content": "<p>Need help with your purchase? Start on our Service and Support page</p>",
+            "link_url": "shopify://pages/contact",
+            "link_text": "Contact Us",
+            "link_style": "button"
+          }
+        },
+        "item_NPXPtL": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "2",
+            "title": "Frequently Asked Questions",
+            "heading_tag": "h4",
+            "content": "<p>Your question may already be answered! Access our FAQ database here.</p>",
+            "link_url": "",
+            "link_text": "FAQs",
+            "link_style": "button"
+          }
+        }
+      },
+      "block_order": [
+        "item_thgzqK",
+        "item_NPXPtL"
+      ],
       "name": "Multi-column",
       "settings": {
         "full_width": true,
@@ -307,10 +356,10 @@
         "title": "Just Got Your Renvo Kit? Start Here.",
         "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
+        "support_hours": "Our customer support is available Monday to Friday: 9am-5:00pm EST.",
         "answer_time": "Average answer time: 24h",
         "button_text": "Contact Us",
-        "button_url": "",
+        "button_url": "shopify://pages/contact",
         "text_position": "center",
         "background": "#fdfeff",
         "background_gradient": "",
@@ -363,6 +412,7 @@
     "main",
     "image_with_text_overlay_KJyzFw",
     "multi_column_rrtxFd",
+    "multi_column_zdHDAc",
     "text_with_icons_HhRyRH",
     "image_with_text_overlay_iJbHdq",
     "media_with_text_RNQFdd",
