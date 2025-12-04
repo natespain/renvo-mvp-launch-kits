@@ -692,7 +692,7 @@
         "collection_g7NCYL": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "vending-hardware",
             "subheading": "",
             "title": "Hardware",
             "url": "",
@@ -706,7 +706,7 @@
         "collection_hwqNeB": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "pre-packed-vendables",
             "subheading": "",
             "title": "Vendables",
             "url": "",
