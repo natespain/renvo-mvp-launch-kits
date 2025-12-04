@@ -18,6 +18,7 @@
         },
         "comments": {
           "type": "comments",
+          "disabled": true,
           "settings": {
             "show_gravatar": true,
             "comments_per_page": 5
