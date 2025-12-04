@@ -238,7 +238,7 @@
         "products_per_row_desktop": 4,
         "subheading": "",
         "title": "Vending Kits for Every Market",
-        "content": "<p>Renvo's Smart Vending Kits include the hardware, the vendables and the branded wrap. Everything you need to get started.</p>",
+        "content": "<p>Renvo's Smart Vending Kits include hardware, pre-packed vendables, and a branded wrap. Everything you need to get started.</p>",
         "link_url": "shopify://collections/smart-vending-kits",
         "link_text": "See All Kits",
         "background": "#fdfeff",
@@ -708,7 +708,7 @@
           "settings": {
             "collection": "",
             "subheading": "",
-            "title": "",
+            "title": "Vendables",
             "url": "",
             "heading_tag": "h2",
             "text_position": "place-self-center text-center",
