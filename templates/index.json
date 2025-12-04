@@ -261,10 +261,17 @@
             "text_color": "#1a1b1d",
             "gradient": ""
           }
+        },
+        "richtext_ULjQcd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>When you start your business with Renvo, we help simplify what is typically a tedious setup process. Start with a kit as outlined below, or jump in to buying hardware or vendables. No matter how you start, we'll make your vending operation easy.</p>"
+          }
         }
       },
       "block_order": [
-        "heading_rahjf6"
+        "heading_rahjf6",
+        "richtext_ULjQcd"
       ],
       "name": "Rich text",
       "settings": {
@@ -347,8 +354,8 @@
             "size": "xl",
             "text": "Get Started",
             "url": "shopify://collections/smart-vending-kits",
-            "background": "#70c699",
-            "text_color": "#1a1b1d"
+            "background": "#1a1a1a",
+            "text_color": "#fdfeff"
           }
         }
       },
