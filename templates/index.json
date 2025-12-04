@@ -238,7 +238,7 @@
         "products_per_row_desktop": 4,
         "subheading": "",
         "title": "Vending Kits for Every Market",
-        "content": "",
+        "content": "<p>Renvo's Smart Vending Kits include the hardware, the vendables and the branded wrap. Everything you need to get started.</p>",
         "link_url": "shopify://collections/smart-vending-kits",
         "link_text": "See All Kits",
         "background": "#fdfeff",
@@ -295,7 +295,7 @@
             "icon_background_type": "circle",
             "icon_background": "#41b990",
             "icon_color": "",
-            "title": "Choose Your Retail Kit",
+            "title": "Choose Your Starter Kit",
             "content": "<p>Pick the pre-built kit that fits your audience and location.</p>"
           }
         },
@@ -450,7 +450,7 @@
         "video_kDwTdX": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/breeze moving plant and shadows. Waves crashing in ocean..mp4",
+            "video": "shopify://files/videos/remove text.mp4",
             "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "autoplay": true,
             "media_width": 50,
@@ -673,6 +673,7 @@
         "block-2",
         "block-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "content_size": "medium",
@@ -683,6 +684,61 @@
         "heading_gradient": "",
         "logo_item_background": "",
         "logo_item_border": ""
+      }
+    },
+    "collection_list_neAnbg": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_g7NCYL": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "Hardware",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_hwqNeB": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_g7NCYL",
+        "collection_hwqNeB"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row": 2,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "We also sell things separately",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "section-15": {
@@ -873,6 +929,7 @@
     "multi_column_gGVTpd",
     "image_link_blocks_DzFkie",
     "section-10",
+    "collection_list_neAnbg",
     "section-15",
     "image_with_text_overlay_Mc6a4A"
   ]
