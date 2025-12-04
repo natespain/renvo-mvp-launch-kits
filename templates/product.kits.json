@@ -223,6 +223,7 @@
       "block_order": [
         "video_WwDM8J"
       ],
+      "disabled": true,
       "name": "Media with text",
       "settings": {
         "full_width": false,
