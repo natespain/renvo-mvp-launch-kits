@@ -140,7 +140,7 @@
         "item_wwPQcn": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"where-to-buy-vending-machines\"].question.value }}",
+            "title": "",
             "content": "{{ metaobjects.faqs[\"where-to-buy-vending-machines\"].answer | metafield_tag }}"
           }
         },
