@@ -470,6 +470,59 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "faq_WxcUYR": {
+      "type": "faq",
+      "blocks": {
+        "item_XARKgj": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.warranty.faq_1.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.warranty.faq_1.value.answer | metafield_tag }}"
+          }
+        },
+        "item_QNfn8x": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_bFXUt3": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_XARKgj",
+        "item_QNfn8x",
+        "item_bFXUt3"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Warranty",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "Average answer time: 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -479,6 +532,7 @@
     "faq_BiwdYq",
     "faq_j3hthW",
     "faq_yaUk7J",
-    "faq_VMzpLi"
+    "faq_VMzpLi",
+    "faq_WxcUYR"
   ]
 }
