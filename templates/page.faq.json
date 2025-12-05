@@ -430,7 +430,14 @@
           "type": "item",
           "settings": {
             "title": "{{ metaobjects.faq_group.partner.faq_4.value.question.value }}",
-            "content": "{{ metaobjects.faq_group.partner.faq_4.value.answer | metafield_tag }}"
+            "content": "<p>{{ metaobjects.faq_group.partner.faq_4.value.answer | metafield_tag }}</p>"
+          }
+        },
+        "item_tfxVgA": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.partner.faq_5.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.partner.faq_5.value.answer | metafield_tag }}"
           }
         }
       },
@@ -438,7 +445,8 @@
         "item_DAXiGe",
         "item_JFJg6k",
         "item_HBeimX",
-        "item_qnE3FF"
+        "item_qnE3FF",
+        "item_tfxVgA"
       ],
       "name": "FAQ",
       "settings": {
