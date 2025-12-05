@@ -182,36 +182,36 @@
         "item_CKp6iX": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"where-can-i-put-a-vending-machine\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"where-can-i-put-a-vending-machine\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group[\"general-3\"].faq_1.value.question.value }}",
+            "content": "{{ metaobjects.faq_group[\"general-3\"].faq_1.value.answer | metafield_tag }}"
           }
         },
         "item_bdHfNB": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"are-vending-machines-profitable\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"are-vending-machines-profitable\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group[\"general-3\"].faq_2.value.question.value }}",
+            "content": "{{ metaobjects.faq_group[\"general-3\"].faq_2.value.answer | metafield_tag }}"
           }
         },
         "item_TGyHPW": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"what-does-renvo-do\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"what-does-renvo-do\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group[\"general-3\"].faq_3.value.question.value }}",
+            "content": "{{ metaobjects.faq_group[\"general-3\"].faq_3.value.answer | metafield_tag }}"
           }
         },
         "item_ixQEqh": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"what-products-can-i-stock-my-vending-machine-with\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"what-products-can-i-stock-my-vending-machine-with\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group[\"general-3\"].faq_4.value.question.value }}",
+            "content": "{{ metaobjects.faq_group[\"general-3\"].faq_4.value.answer | metafield_tag }}"
           }
         },
         "item_dtdrhW": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"can-i-sell-my-own-products-through-renvo\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"can-i-sell-my-own-products-through-renvo\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group[\"general-3\"].faq_5.value.question.value }}",
+            "content": "{{ metaobjects.faq_group[\"general-3\"].faq_5.value.answer | metafield_tag }}"
           }
         },
         "item_GzkBQa": {
