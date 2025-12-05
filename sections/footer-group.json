@@ -143,8 +143,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "",
+            "content": "<p>Renvo brings together vending machines, vendables, branding services, and vendor tools in a single, integrated B2B marketplace.</p>",
             "enable_follow_on_shop": true
           }
         }
