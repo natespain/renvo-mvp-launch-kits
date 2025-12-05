@@ -105,36 +105,36 @@
         "item_wJMeDq": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"what-is-unattended-retail\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"what-is-unattended-retail\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group.general.faq_1.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.general.faq_1.value.answer | metafield_tag }}"
           }
         },
         "item_iX8PUU": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"what-are-the-best-solutions-for-unattended-retail\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"what-are-the-best-solutions-for-unattended-retail\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group.general.faq_2.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.general.faq_2.value.answer | metafield_tag }}"
           }
         },
         "item_DpKCK4": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"how-do-you-start-a-vending-machine-business\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"how-do-you-start-a-vending-machine-business\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group.general.faq_3.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.general.faq_3.value.answer | metafield_tag }}"
           }
         },
         "item_LGeJie": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"do-you-sell-vending-machines\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"do-you-sell-vending-machines\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group.general.faq_4.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.general.faq_4.value.answer | metafield_tag }}"
           }
         },
         "item_MzFxJg": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group.general.faq_5.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.general.faq_5.value.answer | metafield_tag }}"
           }
         },
         "item_wwPQcn": {
