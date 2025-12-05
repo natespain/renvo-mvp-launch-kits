@@ -70,7 +70,7 @@
             "icon_width": 20,
             "title": "Stand Alone Hardware",
             "content": "<p>If you are looking for a turn-key setup, <a href=\"/collections/smart-vending-kits\" title=\"Smart Vending Kits\">check out our vending kits</a></p>",
-            "background": "#c5e9de",
+            "background": "#70c699",
             "text_color": "#1a1b1d"
           }
         },
@@ -83,7 +83,7 @@
             "icon_width": 20,
             "title": "Free Shipping",
             "content": "<p>We offer free shipping on all of our products.</p>",
-            "background": "#70c699",
+            "background": "#c5e9de",
             "text_color": "#1a1b1d"
           }
         },
