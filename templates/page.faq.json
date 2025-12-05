@@ -277,14 +277,38 @@
         "item_ndhKTa": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"where-do-you-ship\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"where-do-you-ship\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group.shipping.faq_2.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.shipping.faq_2.value.answer | metafield_tag }}"
+          }
+        },
+        "item_HUQPhA": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.shipping.faq_3.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.shipping.faq_3.value.answer | metafield_tag }}"
+          }
+        },
+        "item_q8i7iD": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.shipping.faq_4.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.shipping.faq_4.value.answer | metafield_tag }}"
+          }
+        },
+        "item_8HKqxn": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.shipping.faq_5.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.shipping.faq_5.value.answer | metafield_tag }}"
           }
         }
       },
       "block_order": [
         "item_hURnDE",
-        "item_ndhKTa"
+        "item_ndhKTa",
+        "item_HUQPhA",
+        "item_q8i7iD",
+        "item_8HKqxn"
       ],
       "name": "FAQ",
       "settings": {
