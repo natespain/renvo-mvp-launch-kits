@@ -562,7 +562,7 @@
         "item_BcfTCM": {
           "type": "item",
           "settings": {
-            "title": "{{ product.metafields.custom.product_faqs.value.faq_1.value.question.value }}",
+            "title": "{{ product.metafields.custom.product_faqs.value.faq_1.value.question.value }}{{ product.metafields.custom.product_faqs.value.faq_1.value.question.value }}",
             "content": "{{ product.metafields.custom.product_faqs.value.faq_1.value.answer | metafield_tag }}"
           }
         },
