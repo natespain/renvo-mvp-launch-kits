@@ -401,7 +401,7 @@
         "view_product": "View",
         "show_product_info": true,
         "show_product_image": true,
-        "show_product_swatch": true,
+        "show_product_swatch": false,
         "viewing_product": "",
         "background": "#fdfeff",
         "background_gradient": "",
