@@ -93,6 +93,7 @@
         },
         "associated_products_GnBcF6": {
           "type": "associated_products",
+          "disabled": true,
           "settings": {
             "title": "Add a Custom Wrap",
             "stack_products": true,
