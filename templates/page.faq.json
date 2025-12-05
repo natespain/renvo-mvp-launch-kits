@@ -401,6 +401,67 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "faq_VMzpLi": {
+      "type": "faq",
+      "blocks": {
+        "item_DAXiGe": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.partner.faq_1.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.partner.faq_1.value.answer | metafield_tag }}"
+          }
+        },
+        "item_JFJg6k": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.partner.faq_2.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.partner.faq_2.value.answer | metafield_tag }}"
+          }
+        },
+        "item_HBeimX": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.partner.faq_3.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.partner.faq_3.value.answer | metafield_tag }}"
+          }
+        },
+        "item_qnE3FF": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.partner.faq_4.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.partner.faq_4.value.answer | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "item_DAXiGe",
+        "item_JFJg6k",
+        "item_HBeimX",
+        "item_qnE3FF"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Partner",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -409,6 +470,7 @@
     "main",
     "faq_BiwdYq",
     "faq_j3hthW",
-    "faq_yaUk7J"
+    "faq_yaUk7J",
+    "faq_VMzpLi"
   ]
 }
