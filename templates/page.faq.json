@@ -217,8 +217,15 @@
         "item_GzkBQa": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"do-you-offer-tech-support\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"do-you-offer-tech-support\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group[\"copy-of-general-4-unattended\"].faq_1.value.question.value }}",
+            "content": "{{ metaobjects.faq_group[\"copy-of-general-4-unattended\"].faq_1.value.answer | metafield_tag }}"
+          }
+        },
+        "item_9xfGfA": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group[\"copy-of-general-4-unattended\"].faq_5.value.question.value }}",
+            "content": "{{ metaobjects.faq_group[\"copy-of-general-4-unattended\"].faq_5.value.answer | metafield_tag }}"
           }
         }
       },
@@ -239,7 +246,8 @@
         "item_TGyHPW",
         "item_ixQEqh",
         "item_dtdrhW",
-        "item_GzkBQa"
+        "item_GzkBQa",
+        "item_9xfGfA"
       ],
       "name": "FAQ",
       "settings": {
