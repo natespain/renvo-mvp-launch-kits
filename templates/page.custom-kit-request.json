@@ -22,20 +22,20 @@
         "subheading_bNxz6b": {
           "type": "subheading",
           "settings": {
-            "text": "Contact Us"
+            "text": "Custom Kit Request"
           }
         },
         "heading_CFtkHx": {
           "type": "heading",
           "settings": {
-            "text": "Let's Talk Shop",
+            "text": "Looking for something more custom?",
             "heading_tag": "h1"
           }
         },
         "richtext_jNbDAX": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Got a question, a hiccup, or just need help picking the right gear? We're here for it. Whether you're running one vending machine or scaling a whole fleet, our team's ready to help you move faster – with less guesswork. Reach out and let's keep your retail running smart.</p>"
+            "content": "<p>Fill out the request form below to get the process started. We'll be in touch soon to work with you to assemble the perfect Smart Vending Starter Kit.</p>"
           }
         }
       },
