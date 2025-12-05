@@ -270,8 +270,8 @@
         "item_hURnDE": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"how-fast-is-shipping\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"how-fast-is-shipping\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group.shipping.faq_1.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.shipping.faq_1.value.answer | metafield_tag }}"
           }
         },
         "item_ndhKTa": {
