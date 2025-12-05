@@ -248,81 +248,12 @@
         "title": "General",
         "content": "",
         "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-5pm EST.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "Contact Us",
-        "button_url": "",
-        "text_position": "center",
-        "background": "#fdfeff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
-    "faq_j3hthW": {
-      "type": "faq",
-      "blocks": {
-        "item_hURnDE": {
-          "type": "item",
-          "settings": {
-            "title": "{{ metaobjects.faq_group.shipping.faq_1.value.question.value }}",
-            "content": "{{ metaobjects.faq_group.shipping.faq_1.value.answer | metafield_tag }}"
-          }
-        },
-        "item_ndhKTa": {
-          "type": "item",
-          "settings": {
-            "title": "{{ metaobjects.faq_group.shipping.faq_2.value.question.value }}",
-            "content": "{{ metaobjects.faq_group.shipping.faq_2.value.answer | metafield_tag }}"
-          }
-        },
-        "item_HUQPhA": {
-          "type": "item",
-          "settings": {
-            "title": "{{ metaobjects.faq_group.shipping.faq_3.value.question.value }}",
-            "content": "{{ metaobjects.faq_group.shipping.faq_3.value.answer | metafield_tag }}"
-          }
-        },
-        "item_q8i7iD": {
-          "type": "item",
-          "settings": {
-            "title": "{{ metaobjects.faq_group.shipping.faq_4.value.question.value }}",
-            "content": "{{ metaobjects.faq_group.shipping.faq_4.value.answer | metafield_tag }}"
-          }
-        },
-        "item_8HKqxn": {
-          "type": "item",
-          "settings": {
-            "title": "{{ metaobjects.faq_group.shipping.faq_5.value.question.value }}",
-            "content": "{{ metaobjects.faq_group.shipping.faq_5.value.answer | metafield_tag }}"
-          }
-        }
-      },
-      "block_order": [
-        "item_hURnDE",
-        "item_ndhKTa",
-        "item_HUQPhA",
-        "item_q8i7iD",
-        "item_8HKqxn"
-      ],
-      "name": "FAQ",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Shipping",
-        "content": "",
-        "team_avatar_width": 160,
         "support_hours": "",
         "answer_time": "",
         "button_text": "",
         "button_url": "",
         "text_position": "center",
-        "background": "",
+        "background": "#fdfeff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -384,6 +315,75 @@
         "full_width": true,
         "subheading": "",
         "title": "Kits",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "faq_j3hthW": {
+      "type": "faq",
+      "blocks": {
+        "item_hURnDE": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.shipping.faq_1.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.shipping.faq_1.value.answer | metafield_tag }}"
+          }
+        },
+        "item_ndhKTa": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.shipping.faq_2.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.shipping.faq_2.value.answer | metafield_tag }}"
+          }
+        },
+        "item_HUQPhA": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.shipping.faq_3.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.shipping.faq_3.value.answer | metafield_tag }}"
+          }
+        },
+        "item_q8i7iD": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.shipping.faq_4.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.shipping.faq_4.value.answer | metafield_tag }}"
+          }
+        },
+        "item_8HKqxn": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.shipping.faq_5.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.shipping.faq_5.value.answer | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "item_hURnDE",
+        "item_ndhKTa",
+        "item_HUQPhA",
+        "item_q8i7iD",
+        "item_8HKqxn"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Shipping",
         "content": "",
         "team_avatar_width": 160,
         "support_hours": "",
@@ -524,10 +524,10 @@
         "title": "Warranty",
         "content": "",
         "team_avatar_width": 160,
-        "support_hours": "",
+        "support_hours": "Our customer support is available Monday to Friday: 8am-5pm EST.",
         "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
+        "button_text": "Contact Us",
+        "button_url": "shopify://pages/contact",
         "text_position": "center",
         "background": "",
         "background_gradient": "",
@@ -546,8 +546,8 @@
     "rich_text_9jFBRb",
     "main",
     "faq_BiwdYq",
-    "faq_j3hthW",
     "faq_yaUk7J",
+    "faq_j3hthW",
     "faq_VMzpLi",
     "faq_WxcUYR"
   ]
