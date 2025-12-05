@@ -91,6 +91,16 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "associated_products_GnBcF6": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 1,
+            "background": "",
+            "text_color": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -116,6 +126,7 @@
         "offer_xxM8Rf",
         "offer_YnxQRE",
         "quantity_selector",
+        "associated_products_GnBcF6",
         "buy_buttons"
       ],
       "settings": {
