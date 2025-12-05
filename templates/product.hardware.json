@@ -399,7 +399,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Restaurants & Bars",
-            "content": "<p>Some related text description can go here. Maybe a couple of lines of text at most. Three maybe, but not more.</p>"
+            "content": ""
           }
         },
         "item_nXyzRP": {
@@ -412,7 +412,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Hotels",
-            "content": "<p>Some related text description can go here. Maybe a couple of lines of text at most. Three maybe, but not more.</p>"
+            "content": ""
           }
         },
         "item_WkTXmc": {
@@ -425,7 +425,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Dog Parks",
-            "content": "<p>Your payment information is processed securely.</p>"
+            "content": ""
           }
         },
         "item_cTFQzG": {
@@ -438,7 +438,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Recreation Areas",
-            "content": "<p>Your payment information is processed securely.</p>"
+            "content": ""
           }
         },
         "item_EKHK7N": {
@@ -451,7 +451,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Campgrounds",
-            "content": "<p>Your payment information is processed securely.</p>"
+            "content": ""
           }
         }
       },
