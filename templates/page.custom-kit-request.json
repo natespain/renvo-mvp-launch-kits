@@ -64,7 +64,7 @@
         "richtext_7aAxtU": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Fill out the request form below to get the process started. We'll be in touch soon to work with you to assemble the perfect Smart Vending Starter Kit.</p>"
+            "content": "<p>Fill out the request form below to get the process started. <strong>Please include your name, email, and a brief description of what you're looking for. </strong>We'll be in touch soon to work with you to assemble the perfect Smart Vending Starter Kit.</p>"
           }
         }
       },
