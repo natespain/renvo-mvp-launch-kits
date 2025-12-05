@@ -315,6 +315,13 @@
             "value": "<p>{{ product.metafields.custom.hardware_specifications.value.display.value }}</p>"
           }
         },
+        "row_QiNtMK": {
+          "type": "row",
+          "settings": {
+            "heading": "Software",
+            "value": "<p>Value{{ product.metafields.custom.hardware_specifications.value.software.value }}</p>"
+          }
+        },
         "row_yhwRyC": {
           "type": "row",
           "settings": {
@@ -357,6 +364,7 @@
         "row_7tpUCi",
         "row_ycrQX9",
         "row_aahDg3",
+        "row_QiNtMK",
         "row_yhwRyC",
         "row_zWLJrD",
         "row_inEbXG",
