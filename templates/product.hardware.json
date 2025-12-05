@@ -94,7 +94,7 @@
         "associated_products_GnBcF6": {
           "type": "associated_products",
           "settings": {
-            "title": "Buy it with",
+            "title": "Add a Custom Wrap",
             "stack_products": true,
             "products_count": 1,
             "background": "",
