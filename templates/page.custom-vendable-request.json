@@ -22,13 +22,13 @@
         "subheading_bNxz6b": {
           "type": "subheading",
           "settings": {
-            "text": "Custom Kit Request"
+            "text": "Custom Vendable Request"
           }
         },
         "heading_CFtkHx": {
           "type": "heading",
           "settings": {
-            "text": "Looking for something more custom?",
+            "text": "Need a vendable that isn't on our site?",
             "heading_tag": "h1"
           }
         },
@@ -64,7 +64,7 @@
         "richtext_7aAxtU": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Fill out the request form below to get the process started. <strong>Please include your name, email, and a brief description of what you're looking for. </strong>We'll be in touch soon to work with you to assemble the perfect Smart Vending Starter Kit.</p>"
+            "content": "<p>Fill out the request form below to get the process started. <strong>Please include your name, email, and a brief description of what you're looking for. </strong>We'll be in touch soon!</p>"
           }
         }
       },
