@@ -1,0 +1,134 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "image_with_text_overlay_KJyzFw": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_bNxz6b": {
+          "type": "subheading",
+          "settings": {
+            "text": "Custom Kit Request"
+          }
+        },
+        "heading_CFtkHx": {
+          "type": "heading",
+          "settings": {
+            "text": "Looking for something more custom?",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_jNbDAX": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_bNxz6b",
+        "heading_CFtkHx",
+        "richtext_jNbDAX"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/banner-dark-background_CTA.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#fdfeff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_z9wrDy": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_7aAxtU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fill out the request form below to get the process started. <strong>Please include your name, email, and a brief description of what you're looking for. </strong>We'll be in touch soon to work with you to assemble the perfect Smart Vending Starter Kit.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_7aAxtU"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#fdfeff",
+        "background_gradient": "",
+        "text_color": "#1a1b1d"
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "blocks": {
+        "text_t7LVxq": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Custom field",
+            "use_long_text": false,
+            "required": false
+          }
+        },
+        "dropdown_R3XgGx": {
+          "type": "dropdown",
+          "disabled": true,
+          "settings": {
+            "title": "Custom field",
+            "values": "value 1, value 2, value 3"
+          }
+        }
+      },
+      "block_order": [
+        "text_t7LVxq",
+        "dropdown_R3XgGx"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "text_position": "center",
+        "contact_form_size": "large",
+        "background": "#fdfeff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "#f5f9fc",
+        "contact_text_color": "rgba(0,0,0,0)",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_KJyzFw",
+    "rich_text_z9wrDy",
+    "contact"
+  ]
+}
