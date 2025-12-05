@@ -69,7 +69,7 @@
             "icon": "none",
             "icon_width": 20,
             "title": "Free Shipping",
-            "content": "<p>We offer free shipping on all of our products.</p>",
+            "content": "<p>We offer free shipping for all of our products.</p>",
             "background": "#c5e9de",
             "text_color": "#1a1b1d"
           }
