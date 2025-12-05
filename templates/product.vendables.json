@@ -68,8 +68,8 @@
             "icon_position": "aligned",
             "icon": "none",
             "icon_width": 20,
-            "title": "Shipping",
-            "content": "<p>Short content about your shipping rates or discounts.</p>",
+            "title": "Free Shipping",
+            "content": "<p>We offer free shipping on all of our products.</p>",
             "background": "#c5e9de",
             "text_color": "#1a1b1d"
           }
