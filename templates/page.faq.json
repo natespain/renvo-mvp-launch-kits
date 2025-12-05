@@ -484,15 +484,15 @@
         "item_QNfn8x": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "{{ metaobjects.faq_group.warranty.faq_2.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.warranty.faq_2.value.answer | metafield_tag }}"
           }
         },
         "item_bFXUt3": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "{{ metaobjects.faq_group.warranty.faq_3.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.warranty.faq_3.value.answer | metafield_tag }}"
           }
         }
       },
