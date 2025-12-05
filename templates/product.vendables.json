@@ -369,9 +369,12 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "recommendations_count": 6,
+        "recommendations_count": 5,
         "products": [
-          "recreation-camping-kit"
+          "fitness-essentials-kit",
+          "hospitality-essentials-kit",
+          "recreation-camping-kit",
+          "personal-care-essentials-kit-copy"
         ],
         "full_width": true,
         "stack_products": true,
@@ -379,8 +382,8 @@
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Related Smart Vending Kits",
-        "content": "<p>Our kits have everything you need to get going right out of the box.</p>",
+        "title": "Smart Vending Starter Kits",
+        "content": "<p>Start with one of our kits to have everything you need to get going right out of the box.</p>",
         "background": "#f0f4f8",
         "background_gradient": "",
         "text_color": "",
