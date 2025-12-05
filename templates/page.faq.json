@@ -494,12 +494,28 @@
             "title": "{{ metaobjects.faq_group.warranty.faq_3.value.question.value }}",
             "content": "{{ metaobjects.faq_group.warranty.faq_3.value.answer | metafield_tag }}"
           }
+        },
+        "item_ynFWWe": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.warranty.faq_4.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.warranty.faq_4.value.answer | metafield_tag }}"
+          }
+        },
+        "item_h9aQTj": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.warranty.faq_5.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.warranty.faq_5.value.answer | metafield_tag }}"
+          }
         }
       },
       "block_order": [
         "item_XARKgj",
         "item_QNfn8x",
-        "item_bFXUt3"
+        "item_bFXUt3",
+        "item_ynFWWe",
+        "item_h9aQTj"
       ],
       "name": "FAQ",
       "settings": {
