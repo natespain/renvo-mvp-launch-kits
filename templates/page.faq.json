@@ -336,8 +336,15 @@
         "item_9Rdakx": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "{{ metaobjects.faq_group.kits.faq_4.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.kits.faq_4.value.answer | metafield_tag }}"
+          }
+        },
+        "item_ckQjfg": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.kits.faq_5.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.kits.faq_5.value.answer | metafield_tag }}"
           }
         }
       },
@@ -345,7 +352,8 @@
         "item_gka4tV",
         "item_kwpNhb",
         "item_aLpD8C",
-        "item_9Rdakx"
+        "item_9Rdakx",
+        "item_ckQjfg"
       ],
       "name": "FAQ",
       "settings": {
