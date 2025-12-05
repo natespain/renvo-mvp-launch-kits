@@ -40,7 +40,7 @@
             "image": "shopify://shop_images/banner-dark-background_CTA.jpg",
             "title": "Can’t find what you need?",
             "content": "<p>Looking for a specific product, a new category, or another variation? Tell us what you’re after — we’ll source the right vendable for your operation.</p>",
-            "link_url": "",
+            "link_url": "shopify://pages/custom-vendable-request",
             "link_text": "Request a Vendable",
             "heading_tag": "h2",
             "text_position": "place-self-end-start text-start",
