@@ -35,7 +35,7 @@
         "richtext_jNbDAX": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Fill out the request form below to get the process started. We'll be in touch soon to work with you to assemble the perfect Smart Vending Starter Kit.</p>"
+            "content": ""
           }
         }
       },
@@ -61,27 +61,16 @@
     "rich_text_z9wrDy": {
       "type": "rich-text",
       "blocks": {
-        "heading_NyyGdJ": {
-          "type": "heading",
-          "settings": {
-            "text": "Drop Us a Line",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_7aAxtU": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Fill out the form to send us an email. We'll respond within 48 hours.</p>"
+            "content": "<p>Fill out the request form below to get the process started. We'll be in touch soon to work with you to assemble the perfect Smart Vending Starter Kit.</p>"
           }
         }
       },
       "block_order": [
-        "heading_NyyGdJ",
         "richtext_7aAxtU"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -106,7 +95,6 @@
         },
         "text_DJgHzL": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "title": "Custom field",
             "use_long_text": false,
