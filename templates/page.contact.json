@@ -129,7 +129,7 @@
             "title": "Frequently Asked Questions",
             "heading_tag": "h4",
             "content": "<p>Your question may already be answered! Access our FAQ database here.</p>",
-            "link_url": "",
+            "link_url": "shopify://pages/frequently-asked-questions",
             "link_text": "FAQs",
             "link_style": "button"
           }
