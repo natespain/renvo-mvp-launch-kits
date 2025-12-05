@@ -258,36 +258,6 @@
     },
     "contact": {
       "type": "contact",
-      "blocks": {
-        "text_t7LVxq": {
-          "type": "text",
-          "settings": {
-            "title": "Custom field",
-            "use_long_text": false,
-            "required": false
-          }
-        },
-        "text_DJgHzL": {
-          "type": "text",
-          "settings": {
-            "title": "Custom field",
-            "use_long_text": false,
-            "required": false
-          }
-        },
-        "dropdown_R3XgGx": {
-          "type": "dropdown",
-          "settings": {
-            "title": "Custom field",
-            "values": "value 1, value 2, value 3"
-          }
-        }
-      },
-      "block_order": [
-        "text_t7LVxq",
-        "text_DJgHzL",
-        "dropdown_R3XgGx"
-      ],
       "settings": {
         "full_width": true,
         "subheading": "",
