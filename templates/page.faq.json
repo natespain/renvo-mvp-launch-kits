@@ -144,6 +144,41 @@
             "content": "{{ metaobjects.faqs[\"where-to-buy-vending-machines\"].answer | metafield_tag }}"
           }
         },
+        "item_RK7eDA": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"what-payment-methods-do-you-accept\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"what-payment-methods-do-you-accept\"].answer | metafield_tag }}"
+          }
+        },
+        "item_pHzaDE": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"is-there-a-minimum-order\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"is-there-a-minimum-order\"].answer | metafield_tag }}"
+          }
+        },
+        "item_Te4eFA": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"how-to-get-your-product-into-vending-machines\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"how-to-get-your-product-into-vending-machines\"].answer | metafield_tag }}"
+          }
+        },
+        "item_xPpBcM": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"where-do-vending-machine-owners-buy-their-product\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"where-do-vending-machine-owners-buy-their-product\"].answer | metafield_tag }}"
+          }
+        },
+        "item_aP3qQR": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine-permit\"].question.value }}",
+            "content": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine-permit\"].answer | metafield_tag }}"
+          }
+        },
         "item_CKp6iX": {
           "type": "item",
           "settings": {
@@ -156,27 +191,6 @@
           "settings": {
             "title": "{{ metaobjects.faqs[\"are-vending-machines-profitable\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"are-vending-machines-profitable\"].answer | metafield_tag }}"
-          }
-        },
-        "item_aP3qQR": {
-          "type": "item",
-          "settings": {
-            "title": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine-permit\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"how-much-is-a-vending-machine-permit\"].answer | metafield_tag }}"
-          }
-        },
-        "item_xPpBcM": {
-          "type": "item",
-          "settings": {
-            "title": "{{ metaobjects.faqs[\"where-do-vending-machine-owners-buy-their-product\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"where-do-vending-machine-owners-buy-their-product\"].answer | metafield_tag }}"
-          }
-        },
-        "item_Te4eFA": {
-          "type": "item",
-          "settings": {
-            "title": "{{ metaobjects.faqs[\"how-to-get-your-product-into-vending-machines\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"how-to-get-your-product-into-vending-machines\"].answer | metafield_tag }}"
           }
         },
         "item_TGyHPW": {
@@ -200,25 +214,11 @@
             "content": "{{ metaobjects.faqs[\"can-i-sell-my-own-products-through-renvo\"].answer | metafield_tag }}"
           }
         },
-        "item_pHzaDE": {
-          "type": "item",
-          "settings": {
-            "title": "{{ metaobjects.faqs[\"is-there-a-minimum-order\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"is-there-a-minimum-order\"].answer | metafield_tag }}"
-          }
-        },
         "item_GzkBQa": {
           "type": "item",
           "settings": {
             "title": "{{ metaobjects.faqs[\"do-you-offer-tech-support\"].question.value }}",
             "content": "{{ metaobjects.faqs[\"do-you-offer-tech-support\"].answer | metafield_tag }}"
-          }
-        },
-        "item_RK7eDA": {
-          "type": "item",
-          "settings": {
-            "title": "{{ metaobjects.faqs[\"what-payment-methods-do-you-accept\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"what-payment-methods-do-you-accept\"].answer | metafield_tag }}"
           }
         }
       },
@@ -229,17 +229,17 @@
         "item_LGeJie",
         "item_MzFxJg",
         "item_wwPQcn",
+        "item_RK7eDA",
+        "item_pHzaDE",
+        "item_Te4eFA",
+        "item_xPpBcM",
+        "item_aP3qQR",
         "item_CKp6iX",
         "item_bdHfNB",
-        "item_aP3qQR",
-        "item_xPpBcM",
-        "item_Te4eFA",
         "item_TGyHPW",
         "item_ixQEqh",
         "item_dtdrhW",
-        "item_pHzaDE",
-        "item_GzkBQa",
-        "item_RK7eDA"
+        "item_GzkBQa"
       ],
       "name": "FAQ",
       "settings": {
