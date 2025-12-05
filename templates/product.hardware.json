@@ -319,7 +319,7 @@
           "type": "row",
           "settings": {
             "heading": "Software",
-            "value": "<p>Value{{ product.metafields.custom.hardware_specifications.value.software.value }}</p>"
+            "value": "<p>{{ product.metafields.custom.hardware_specifications.value.software.value }}</p>"
           }
         },
         "row_yhwRyC": {
