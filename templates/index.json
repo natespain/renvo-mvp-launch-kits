@@ -450,7 +450,7 @@
         "video_kDwTdX": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/remove text.mp4",
+            "video": "shopify://files/videos/beach-kit-video_crop.mp4",
             "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "autoplay": true,
             "media_width": 50,
