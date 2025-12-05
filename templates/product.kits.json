@@ -66,11 +66,11 @@
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
-            "icon": "none",
+            "icon": "picto-truck",
             "icon_width": 20,
-            "title": "Shipping",
-            "content": "<p>Short content about your shipping rates or discounts.</p>",
-            "background": "#c5e9de",
+            "title": "Free Shipping",
+            "content": "<p>We offer free shipping on all of our products.</p>",
+            "background": "#70c699",
             "text_color": "#1a1b1d"
           }
         },
