@@ -315,21 +315,37 @@
         "item_gka4tV": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"what-should-i-expect-with-my-kit\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"what-should-i-expect-with-my-kit\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group.kits.faq_1.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.kits.faq_1.value.answer | metafield_tag }}"
           }
         },
         "item_kwpNhb": {
           "type": "item",
           "settings": {
-            "title": "{{ metaobjects.faqs[\"what-if-somethings-not-right\"].question.value }}",
-            "content": "{{ metaobjects.faqs[\"what-if-somethings-not-right\"].answer | metafield_tag }}"
+            "title": "{{ metaobjects.faq_group.kits.faq_2.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.kits.faq_2.value.answer | metafield_tag }}"
+          }
+        },
+        "item_aLpD8C": {
+          "type": "item",
+          "settings": {
+            "title": "{{ metaobjects.faq_group.kits.faq_3.value.question.value }}",
+            "content": "{{ metaobjects.faq_group.kits.faq_3.value.answer | metafield_tag }}"
+          }
+        },
+        "item_9Rdakx": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
           }
         }
       },
       "block_order": [
         "item_gka4tV",
-        "item_kwpNhb"
+        "item_kwpNhb",
+        "item_aLpD8C",
+        "item_9Rdakx"
       ],
       "name": "FAQ",
       "settings": {
